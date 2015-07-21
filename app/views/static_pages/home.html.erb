@@ -1,2 +1,26 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<h1>Desenho Industrial Assistido por Computador</h1>
+<p>Esta página serve de apoio para os alunos de DIAC da UnB/FGA</p>
+<p>Feito por <a href="http://www.facebook.com/oiago">Iago Reis</a>.</p>
+<p>
+        <div id="ytplayer"></div>
+
+        <script>
+          // Load the IFrame Player API code asynchronously.
+          var tag = document.createElement('script');
+          tag.src = "https://www.youtube.com/player_api";
+          var firstScriptTag = document.getElementsByTagName('script')[0];
+          firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        
+          // Replace the 'ytplayer' element with an <iframe> and
+          // YouTube player after the API code downloads.
+          var player;
+          function onYouTubePlayerAPIReady() {
+            player = new YT.Player('ytplayer', {
+              height: '320',
+              width: '480',
+              videoId: '03RMWbr5ehk'
+            });
+          }
+        </script>
+        </div>
+</p>

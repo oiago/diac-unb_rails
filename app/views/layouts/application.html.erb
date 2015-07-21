@@ -1,7 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Workspace</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>UnB/FGA - Desenho Industrial Assistido por Computador</title>
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -22,60 +41,24 @@
                     <a href="DIAC Online/teoria/desenho_tecnico.htm">Teoria</a>
                 </li>
                 <li>
-                    <a href="videos.htm">Videos</a>
+                    <a href="videos.html.erb">Videos</a>
                 </li>
                 <li>
-                    <a href="exercicios.htm">Exercícios</a>
+                    <a href="exercises.html.erb">Exercícios</a>
                 </li>
                 <li>
-                    <a href="#"></a>
-                </li>
-                <li>
-                    <a href="#"></a>
-                </li>
-                <li>
-                    <a href="#"></a>
-                </li>
-                <li>
-                    <a href="contact.htm">Contato</a>
+                    <a href="contact.html.erb">Contato</a>
                 </li>
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
-
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
                         <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"> << Menu</a>
-                        <h1>Desenho Industrial Assistido por Computador</h1>
-                        <p>Esta página serve de apoio para os alunos de DIAC da UnB/FGA</p>
-                        <p>Feito por <a href="http://www.facebook.com/oiago">Iago Reis</a>.</p>
-                        <p>
-                                <div id="ytplayer"></div>
-    
-                                <script>
-                                  // Load the IFrame Player API code asynchronously.
-                                  var tag = document.createElement('script');
-                                  tag.src = "https://www.youtube.com/player_api";
-                                  var firstScriptTag = document.getElementsByTagName('script')[0];
-                                  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-                                
-                                  // Replace the 'ytplayer' element with an <iframe> and
-                                  // YouTube player after the API code downloads.
-                                  var player;
-                                  function onYouTubePlayerAPIReady() {
-                                    player = new YT.Player('ytplayer', {
-                                      height: '320',
-                                      width: '480',
-                                      videoId: '03RMWbr5ehk'
-                                    });
-                                  }
-                                </script>
-                                </div>
-                        </p>
-                    </div>
+                        </div>
                 </div>
             </div>
         </div>

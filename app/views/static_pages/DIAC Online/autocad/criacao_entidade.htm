@@ -1,0 +1,958 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="eneida gonzalez valdes curso autocad 2000" content="eneida, gonzález, valdés, professora, desenho, técnico, expressão, gráfica, representação, autocad, 2000, apostilas, exercícios, trabalhos, práticos, geometria, descritiva, engenharia, elétrica, telecomunicações, engenheira, mecânica, iesb, unb, dibujo tecnico">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Entidades geometricas</title>
+<style fprolloverstyle>A:hover {color: #0000FF; font-family: Arial Black; font-size: 12 pt}
+</style>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+<meta name="Microsoft Border" content="tb">
+</head>
+
+<body onload="dynAnimation()" language="Javascript1.2"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<h1 align="center">
+&nbsp;</h1>
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><!--msnavigation--><td valign="top">
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="697">
+    <tr>
+      <td width="725">
+        <h1 align="center"><font face="Arial" size="2">
+        <a href="gerenciamento.htm" name="inicio" onmouseover="document['fpAnimswapImgFP15'].imgRolln=document['fpAnimswapImgFP15'].src;document['fpAnimswapImgFP15'].src=document['fpAnimswapImgFP15'].lowsrc;" onmouseout="document['fpAnimswapImgFP15'].src=document['fpAnimswapImgFP15'].imgRolln"><font color="#000000">
+        <img border="0" src="p_esquerda.gif" id="fpAnimswapImgFP15" name="fpAnimswapImgFP15" dynamicanimation="fpAnimswapImgFP15" lowsrc="../images/botones_fondo/p_esquerda1.gif" alt="Configurações no AutoCAD" width="13" height="16"></font></a></font><span lang="pt-br"><font face="Arial Black" color="#0066FF" size="5">Entidades Geométricas</font></span><font face="Arial" size="2"><font face="Arial" size="2" color="#000000"><a href="modificadores.htm" onmouseover="document['fpAnimswapImgFP16'].imgRolln=document['fpAnimswapImgFP16'].src;document['fpAnimswapImgFP16'].src=document['fpAnimswapImgFP16'].lowsrc;" onmouseout="document['fpAnimswapImgFP16'].src=document['fpAnimswapImgFP16'].imgRolln"><img border="0" src="p_direita.gif" alt="Comandos Modificadores" id="fpAnimswapImgFP16" name="fpAnimswapImgFP16" dynamicanimation="fpAnimswapImgFP16" lowsrc="../images/botones_fondo/p_direita1.gif" width="13" height="16"></a></font><o:p>
+        </o:p>
+        </font></h1>
+        <p style="text-align:justify">
+        <span style="mso-bidi-font-size: 10.0pt; font-weight: normal" lang="pt-br"><font face="Arial" size="2">É
+        hora de aprender a desenhar as figuras geométricas!!!</font></span></p>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 10.0pt; font-weight: normal"><font face="Arial" size="2">
+        <span lang="pt-br">Chamamos
+        entidades geométricas a linhas, arcos, círculos, textos e muitos
+        outros elementos que compõem um desenho, e estas entidades aparecem na
+        barra de ferramenta Draw, no menu principal, também pode ser acionada
+        na barra flutuante <a href="#draw">Draw</a> 
+        que se encontra em View--&gt;Toolbars</span><span lang="pt-br"><o:p>--&gt;Draw,&nbsp;ou no menu lateral.<o:p>
+        </o:p>
+        </o:p></span>
+        </font></span></p>
+        <o:p><span lang="pt-br">
+        <span style="mso-bidi-font-size: 10.0pt; font-weight: normal"><font face="Arial" size="2">Para
+        desenhar qualquer entidade, temos, primeiro: selecionar o comando
+        desejado, segundo: colocar um primeiro ponto, que pode ser por
+        coordenadas o com um clique na tela de desenho, e fundamentalmente, ler
+        as mensagens na janela de comando que dá os próximos passos a seguir,
+        e para encerrar o comando devemos dar Enter ou Esc.&nbsp;</font></span>
+  </center>
+        </span>
+      <p align="center"><font face="Arial" size="2"><span lang="pt-br"><span style="mso-bidi-font-size: 10.0pt; font-weight: normal"><font color="#FF0000">Dê
+      um clique no </font> </span><font color="#FF0000"><span style="mso-bidi-font-size: 10.0pt; font-weight: normal">nome
+      de cada comando da barra de ferramenta flutuante Draw!!!</span></font></span></font></o:p><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt; font-weight: normal" lang="pt-br">
+      </span></font></p>
+  <center>
+        <p class="MsoBodyText" align="center" style="text-align:center"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">
+        <map name="FPMap0">
+        <area href="#LINE" shape="rect" coords="3, 143, 40, 162">
+        <area href="#MULTILINE" shape="rect" coords="57, 147, 125, 166">
+        <area href="#POLYLINE" shape="rect" coords="120, 179, 186, 195">
+        <area href="#POLYGON" shape="rect" coords="138, 139, 204, 156">
+        <area href="#RECTANGLE" shape="rect" coords="117, 33, 189, 49">
+        <area href="#ARC" shape="rect" coords="217, 40, 241, 55">
+        <area href="#CIRCLE" shape="rect" coords="225, 159, 271, 174">
+        <area href="#ELLIPSE" shape="rect" coords="278, 153, 338, 169">
+        <area href="#INSERT BLOCK" shape="rect" coords="316, 16, 424, 34">
+        <area href="#MAKE BLOCK" shape="rect" coords="319, 128, 418, 147">
+        <area href="#POINT" shape="rect" coords="362, 44, 407, 61">
+        <area href="#HATCH" shape="rect" coords="422, 48, 476, 65">
+        <area href="#MTEXT" shape="rect" coords="456, 117, 563, 134"></map><a name="draw"></a>
+        <img src="Criac1.jpg" v:shapes="_x0000_i1025" usemap="#FPMap0" width="576" height="226"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1090072271">
+ </o:OLEObject>
+</xml><![endif]-->
+        </span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Arial;font-weight:normal"><o:p>
+        </o:p>
+        </span></font></p>
+  </center>
+        <p style="margin-left:35.7pt;text-indent:-17.85pt;mso-list:
+l1 level1 lfo1;tab-stops:list 36.0pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-family: Arial; mso-ansi-language: EN-US; mso-bidi-font-weight: bold">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span></span><a name="LINE"><span style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Arial">LINE</span></a><span style="font-size:11.0pt;
+mso-bidi-font-size:10.0pt;font-family:Arial"><br>
+        </span><span style="mso-bidi-font-size: 10.0pt; font-family: Arial">
+        O comando LINE cria um segmento de reta cujos pontos extremos são
+        especificados usando-se coordenadas bidimensionais ou tridimensionais.</span></font></p>
+        <p style="margin-left:35.7pt;text-indent:-17.85pt;mso-list:
+l1 level1 lfo1;tab-stops:list 36.0pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Command:
+        _line Specify first point:&nbsp; o primeiro ponto pode ser dado através de coordenadas ou com um
+        clique na tela de desenho;</span></font></p>
+        <p style="margin-left:35.7pt;text-indent:-17.85pt;mso-list:
+l1 level1 lfo1;tab-stops:list 36.0pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Specify next point or
+        [Undo]: igual que o
+        primeiro, ou também pode guiar o mouse para a direção desejada e
+        digitar o valor da linha!
+        </span> </font></p>
+        <p style="margin-left:35.4pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Specify next point or [Undo]: </span><span lang="EN-US" style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;
+mso-ansi-language:EN-US">igual que os anteriores!</span><span lang="EN-US" style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-ansi-language:
+EN-US"><o:p>
+        </o:p>
+        </span></font></p>
+        <p style="margin-left:35.4pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Specify next point or [Close/Undo]:</span> <span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US"> se quiser fazer uma figura
+        fechada com o primeiro ponto pode digitar C --&gt;enter para sair
+        do comando<o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+margin-left:18.0pt" align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">O AutoCAD desenha um segmento de reta e continua a solicitar
+        os pontos, o que permite que você desenhe segmentos de reta contínuos.
+        Entretanto, cada segmento de reta é um objeto isolado.<br>
+        <br>
+        Close:<br>
+        Fecha um polígono unindo o último ao primeiro segmento.<br>
+        <br>
+        Undo:<br>
+        Desfaz o último segmento desenhado.<br>
+        Para Undo e Close basta digitar a primeira letra de cada opção.<o:p>
+        &nbsp;</font>
+        </span></p>
+        <p class="MsoNormal" style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+margin-left:18.0pt" align="right"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><a href="#inicio">inicio</a></o:p>
+        </font>
+        </span></p>
+        <ul type="disc">
+          <li class="MsoNormal" style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt">
+            <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt"><a name="CIRCLE">CIRCLE</a> </span><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:Arial">
+            </o:p>
+            </span></font>
+            <div align="center">
+              <center>
+              <table border="0" cellpadding="0" cellspacing="0" width="680">
+                <tr>
+                  <td width="490">
+        <p style="mso-margin-top-alt:auto;margin-bottom:12.0pt" align="justify"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">Na
+        área de comandos aparece:</span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Arial"><o:p>
+        </o:p>
+        </span></font></p>
+        <p style="mso-margin-top-alt: auto; margin-bottom: 12.0pt" align="justify"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt">Command:
+        _circle Specify center point for circle or [3P/2P/Ttr (tan tan radius)]:
+        </span><span style="mso-bidi-font-size: 12.0pt">o centro do círculo pode ser
+        dado através de coordenadas ou com um clique na tela de desenho;<o:p>
+        &nbsp;</span></font></p>
+        <p style="mso-margin-top-alt: auto; margin-bottom: 12.0pt" align="justify"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt">Specify
+        radius of circle or [Diameter]: a opção padrão do AutoCAD é o
+        raio, portanto, se quiser entrar com o diâmetro, deve primeiro digitar </span> <span style="mso-bidi-font-size: 12.0pt">D&nbsp;
+        --&gt;enter e depois digitar o valor do diâmetro.<o:p>
+        </span><span lang="EN-US" style="mso-bidi-font-size: 10.0pt">
+        </o:p>
+        </span>
+        </font></p>
+        <p style="margin-bottom:6.0pt;margin-left:0cm" align="justify"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR">Center Point</span><span style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Arial;mso-ansi-language:PT-BR"><br>
+        </span><span style="mso-bidi-font-size: 12.0pt">
+        Desenha um círculo baseado no centro e num diâmetro ou raio.
+        </span><span style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Arial;mso-ansi-language:PT-BR"><br>
+        <br>
+        </span><span style="mso-bidi-font-size: 12.0pt">Cen,Rad<br>
+        Define o raio do círculo especificando-se um ponto ou digitando-se um
+        valor.
+        </span><span style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Arial;mso-ansi-language:PT-BR"><br>
+        <br>
+        </span><span style="mso-bidi-font-size: 12.0pt">Cen,Diam<br>
+        Define o diâmetro do círculo especificando-se um ponto ou digitando-se
+        um valor.<o:p>
+        </span><span style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Arial;mso-ansi-language:PT-BR">
+        </o:p>
+        </span></font></p>
+        <p style="margin-bottom:6.0pt;margin-left:0cm" align="justify"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR">2 Point</span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Arial;mso-ansi-language:PT-BR"><br>
+        </span><span style="mso-bidi-font-size: 12.0pt">
+        Desenha um Círculo passando por dois objetos especificados.
+        </span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Arial;mso-ansi-language:PT-BR"><br style="mso-special-character:line-break">
+        <br style="mso-special-character:line-break">
+        <o:p>
+        </o:p>
+        </span><span style="mso-bidi-font-size: 12.0pt">3
+        Point<br>
+        Desenha um Círculo passando por treis objetos especificados.<o:p>
+        </span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Arial;mso-ansi-language:PT-BR">
+        </o:p>
+        </span></font></p>
+        <p style="margin-left:0cm" align="justify"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR">TTR-Tangent,
+        Tangent, Radius<br>
+        Desenha um Círculo tangente a dois objetos com um raio especificado. <o:p>
+        </o:p>
+        </span></font></p>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="justify"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt">TTT
+        -Tangent, Tangent, Tangent</span><span lang="EN-US" style="font-size:11.0pt;
+mso-bidi-font-size:10.0pt;font-family:Arial"><o:p>
+        </o:p>
+        </span></font></p>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="justify"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR">Desenha um círculo tangente a três objetos.</span><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+font-family:Arial"><o:p>
+        &nbsp;
+        </span></font></p>
+                  </td>
+                  <td width="186"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">
+        <img src="Criac2.jpg" v:shapes="_x0000_i1026" width="133" height="264">
+        </font>
+        </span></td>
+                </tr>
+              </table>
+              </center>
+            </div>
+          </li>
+        </ul>
+        <p style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+margin-left:18.0pt" align="right"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">&nbsp;
+        <!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1026"
+  DrawAspect="Content" ObjectID="_1090072273">
+ </o:OLEObject>
+</xml><![endif]-->
+        <o:p>
+        </span><span style="mso-bidi-font-size: 10.0pt"><a href="#inicio">inicio</a></span><span style="mso-bidi-font-size: 12.0pt"></o:p>
+        </span></font></p>
+        <ul type="disc">
+          <li class="MsoNormal" style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt">
+            <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt"><a name="ARC">ARC</a></span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Arial"><a name="ARC"><o:p>
+            &nbsp;
+            </a>
+            </span></font></li>
+        </ul>
+      <div align="center">
+        <table border="0" cellpadding="0" cellspacing="0" width="680">
+          <tr>
+            <td width="549" align="right">
+        <p align="left"><span style="mso-bidi-font-size: 10.0pt; font-weight: normal"><font face="Arial" size="2">Na área de comando aparece:&nbsp;<o:p>
+        </o:p>
+        </font>
+        </span>
+              </p>
+        <center>
+        <p align="justify"><span style="mso-bidi-font-size: 10.0pt; font-weight: normal"><font face="Arial" size="2">Command: _arc&nbsp;
+        Specify start
+        point of arc or [CEnter]: (o padrão
+        é o primeiro ponto do arco ou se
+        quiser centro digita CE)<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="justify"><span style="mso-bidi-font-size: 10.0pt; font-weight: normal"><font face="Arial" size="2">Specify second point of arc or
+        [CEnter/ENd]: (Se quiser
+        centro digita CE)<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="justify"><span style="mso-bidi-font-size: 10.0pt; font-weight: normal"><font face="Arial" size="2">Specify end point of arc:
+        (ponto final do arco)</font></span></p>
+        <p align="justify"><span style="mso-bidi-font-size: 10.0pt; font-weight: normal"><font face="Arial" size="2">Start point<br>
+        Especifica o ponto inicial de um arco.<br>
+        Center<br>
+        Especifica o centro do círculo de que o arco faz parte.<br>
+        End point<br>
+        Especifica o ponto final do arco.<br>
+        <br>
+        Angle<br>
+        Ângulo de varredura<br>
+        Se o ângulo for negativo, o AutoCAD desenha um arco no sentido horário.<br>
+        <br>
+        Lenght of Chord<br>
+        Comprimento da corda.<br>
+        <br>
+        Center point<br>
+        Ponto central do arco.<br style="mso-special-character:line-break">
+        <o:p>
+        &nbsp;
+        </font>
+        </span></p>
+        <p align="justify"><span style="mso-bidi-font-size: 10.0pt; font-weight: normal"><font face="Arial" size="2">Radius<br>
+        Desenha o arco secundário no sentido anti-horário, do ponto inicial
+        (1) ao ponto final (2). Se o raio for negativo, o AutoCAD desenha o arco
+        principal<o:p>
+        &nbsp;
+        </font>
+        </span></p>
+        </center>
+            </td>
+            <td width="185" align="right">
+              <p align="center"><span style="mso-bidi-font-size: 10.0pt; font-weight: normal"><font face="Arial" size="2">
+              <img src="Criac3.jpg" v:shapes="_x0000_i1027" width="119" height="295"></font>
+        </span></p>
+        </td>
+          </tr>
+        </table>
+      </div>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; font-family: Arial; mso-ansi-language: EN-US">&nbsp;<o:p>
+        </span>
+  <center>
+        <span style="mso-bidi-font-size: 12.0pt">
+        <o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" align="center" style="mso-margin-top-alt:auto;margin-bottom:
+12.0pt;margin-left:18.0pt;text-align:center"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">&nbsp;<o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" align="center" style="mso-margin-top-alt:auto;margin-bottom:
+12.0pt;margin-left:18.0pt;text-align:center"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">
+        <img src="Criac4.jpg" v:shapes="_x0000_i1028" width="553" height="841"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1028"
+  DrawAspect="Content" ObjectID="_1090072279">
+ </o:OLEObject>
+</xml><![endif]-->
+        <o:p>
+        </o:p>
+        </span></font></p>
+  </center>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt"><a href="#inicio">inicio</a></span><span style="mso-bidi-font-size: 12.0pt; font-weight: normal"></o:p>
+        </span></font></p>
+        <ul type="disc">
+          <li class="MsoNormal" style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+     mso-list:l0 level1 lfo2;tab-stops:list 36.0pt">
+            <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt"><a name="RECTANGLE">RECTANGLE</a>:
+            Desenha um retângulo.<o:p>
+            </o:p>
+            </span></font></li>
+        </ul>
+      <blockquote>
+        <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Na área de comando aparece:<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="left"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US"><font face="Arial" size="2">Command:
+        _rectang <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="left"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US"><font face="Arial" size="2">Specify first corner point or
+        [Chamfer/Elevation/Fillet/Thickness/Width]: <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Specify other corner
+        point:<o:p>
+        </o:p>
+        </span></font></p>
+        <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">É definido por dois cantos, formando a diagonal do retângulo.
+        Partindo de um ponto determinado, o comando pede o vértice oposto do
+        retângulo. Podemos utilizar coordenadas absolutas ou relativas para
+        determinar o valor dos lados do retângulo. Quando queremos fazer um
+        chanfro (Chamfer) este pode ser configurado com anterioridade,
+        digitando C--&gt; enter e especificando as distâncias requeridas. De
+        igual forma a opção Fillet permite fazer um arredondamento nas
+        esquinas do retângulo, digitando F--&gt;enter
+        e especificando os raios requeridos. A opção Elevation é
+        referida para fazer um retângulo deslocado uma</span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Arial">
+        </span><span style="mso-bidi-font-size: 10.0pt"> distância pré-determinada,
+        e para isto é necessário digitar E--&gt;enter
+        e digitar a altura prevista. A opção Thickness é referida à
+        possibilidade de trabalhar com um sólido, ou seja, quando você
+        especifica uma espessura para o retângulo, o qual já pode ter sido
+        configurado para ser chanfrado ou arredondado, o resultado final será
+        um sólido com a configuração desejada. A opção Width é
+        referida à possibilidade de dar uma grossura na linha qual é
+        independente da configuração da camada. <span style="mso-spacerun:
+yes">&nbsp;</span><o:p>
+        &nbsp;</span></font></p>
+      </blockquote>
+        <p align="right"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><a href="#inicio">inicio</a></o:p>
+        </font>
+        </span></p>
+        <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span></span><a name="POLYGON"><span style="mso-bidi-font-size: 10.0pt">POLYGON</span></a><span style="mso-bidi-font-size: 10.0pt">: Desenha polígonos regulares de 3
+        a 1024 lados.<o:p>
+        </o:p>
+        </span></font></p>
+      <blockquote>
+        <p style="mso-margin-top-alt:auto;margin-bottom:12.0pt" align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Na
+        área de comando aparece:<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Command:
+        _polygon Enter number
+        of sides &lt;4&gt;: (digitar o
+        numero de lados) 5<o:p>
+        </o:p>
+ </span></font></p>
+        <p align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Specify center of polygon or
+        [Edge]: (digitar coordenada)<o:p>
+        </o:p>
+        </span></font></p>
+        <p align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Enter an option [Inscribed in
+        circle/Circumscribed about circle] &lt;I&gt;: (digitar) I<o:p>
+        </o:p>
+ </span></font></p>
+        <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR">Specify radius of circle: </span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US" lang="EN-US">(digitar valor do raio. Exemplo: 30)<span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US"> <o:p>
+        </span></span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR"> 
+        </o:p>
+        </span></font></p>
+        <p style="mso-margin-top-alt:auto;margin-bottom:12.0pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">Center
+        of polygon<br>
+        Define o centro do polígono.<br>
+        <br>
+        Inscribed In circle<br>
+        Especifica o raio de um círculo no qual estão os vértices do polígono.<br>
+        <br>
+        Circunscribed about circle<br>
+        Especifica a distância a partir do centro poligonal até os pontos médios
+        das arestas do polígono.<br>
+        <br>
+        Edge Define um polígono pela especificação dos pontos extremos
+        da primeira aresta. <o:p>
+        &nbsp;</span></font></p>
+      </blockquote>
+        <p style="mso-margin-top-alt:auto;margin-bottom:12.0pt" align="right"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><a href="#inicio">inicio</a></o:p>
+        </font>
+        </span></p>
+        <ul type="disc">
+          <li class="MsoNormal" style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt">
+            <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt"><a name="ELLIPSE">ELLIPSE</a>:
+            Desenha elipses. Como default a elipse é criada indicando-se seus
+            eixos. <o:p>
+            &nbsp;
+            </span></font></li>
+        </ul>
+      <blockquote>
+        <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><b style="mso-bidi-font-size: 10.0pt">Command:
+        _ellipse </b><b style="mso-bidi-font-size: 10.0pt"><o:p>
+        </b><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US"><b style="mso-bidi-font-weight:normal">
+        </o:p>
+        </b>
+        </span></font></span></p>
+        <p align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US"><b style="mso-bidi-font-weight: normal; mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Specify axis endpoint of ellipse or
+        [Arc/Center]:<o:p>
+        </b><b style="mso-bidi-font-weight:normal">
+        &nbsp;</b></span></font></p>
+        <p align="left"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US; mso-bidi-font-weight: normal"><font face="Arial" size="2">Specify other endpoint of axis:<span style="mso-spacerun: yes">&nbsp;
+        </span><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="left"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US; mso-bidi-font-weight: normal"><font face="Arial" size="2">Specify distance to other axis or
+        [Rotation]:<o:p>
+        &nbsp;</font>
+        </span></p>
+      </blockquote>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="right"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt"><a href="#inicio">inicio</a></span><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US; mso-bidi-font-weight: normal"></o:p>
+        </span></font></p>
+        <ul type="disc">
+          <li class="MsoNormal" style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt">
+            <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt"><a name="MULTILINE">MULTILINE</a>:
+            Desenha as linhas múltiplas configuradas no Multiline Style.</span></font></li>
+        </ul>
+        <p style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+margin-left:18.0pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">Justification<br>
+        Permite traçar as linhas duplas pela borda ou pelo eixo.<br>
+        <br>
+        Scale<br>
+        Fator de escala aplicado sobre as configurações originais, permitindo
+        &quot;engrossar&quot; ou &quot;afinar&quot; o estilo original de Mline.<br>
+        <br>
+        Style<br>
+        Escolha do estilo com o qual a Mline será desenhada.<o:p>
+        &nbsp;</span></font></p>
+        <p style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+margin-left:18.0pt" align="right"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><a href="#inicio">inicio</a></o:p>
+        </font>
+        </span></p>
+        <ul type="disc">
+          <li class="MsoNormal" style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt">
+            <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">DONUT: Desenha círculos
+            e anéis preenchidos. A maneira como o interior de um anel é
+            preenchido depende do parâmetro atual do comando FILL (Tools/Drawing
+            Aids/Solid Fill).<o:p>
+            </o:p>
+            </font>
+            </span></li>
+        </ul>
+        <p style="margin-left:17.85pt" align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Command:
+        <a name="DONUT"> DONUT<o:p>
+        </a>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="margin-left:17.85pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">Specify inside diameter of donut
+        &lt;10.0000&gt;: digitar o diâmetro interior desejado ou dar enter para
+        aceitar a opção &lt;default&gt;<o:p>
+        </o:p>
+ </span></font></p>
+        <p style="margin-left:17.85pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">Specify outside diameter of donut
+        &lt;20.0000&gt;: digitar o diâmetro exterior desejado ou dar enter para
+        aceitar a opção &lt;default&gt;<o:p>
+        </o:p>
+ </span></font></p>
+        <p style="margin-left:17.85pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">Specify center of donut or &lt;exit&gt;: dar uma coordenada ou dar um clique na área de desenho para
+        inserir o Donut. <o:p>
+        </o:p>
+        </span></font></p>
+        <ul type="disc">
+          <li class="MsoNormal" style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt">
+            <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><a name="POINT">POINT</a>: Os pontos podem
+            atuar como nós, que podem ser usados como pontos de atração de
+            Objetos. Para utilizar um padrão especifico de ponto, primeiro deve
+            configura-lo na caixa de diálogo Point Style que aparece na
+            barra de ferramenta Format. Outra opção que aparece em Point
+            é a de Divide e Measure:<o:p>
+            </o:p>
+            </font>
+            </span></li>
+        </ul>
+      <blockquote>
+        <p align="left"><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR; font-weight: normal"><font face="Arial" size="2">Opção Divide: Permite dividir um
+        objeto em partes iguais, marcando com pontos a divisão.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="left"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Command: _divide<o:p>
+        </o:p>
+        </font>
+        </span></p>
+      </blockquote>
+        <p style="margin-left:17.85pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Select object to divide:
+        deve selecionar um objeto e dar enter
+        para confirmar seleção:<o:p>
+        </o:p>
+        </span> </font></p>
+        <p style="margin-left:17.85pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Enter the number of segments or
+        [Block]: digitar o valor desejado
+        (6)
+        </span> </font></p>
+        <p style="margin-left:17.85pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR">Opção
+        Measure: </span> <span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR; font-weight: normal">Permite dividir um objeto em uma medida preestabelecida pelo usuário,
+        marcando com pontos esta divisão.<o:p>
+        </o:p>
+        </span></font></p>
+        <p style="margin-left:17.85pt" align="left"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US"><font face="Arial" size="2">Command:
+        _measure<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="margin-left:17.85pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Select object to measure: </span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR; font-weight: normal">deve selecionar um objeto e dar
+        </span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR">enter</span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR; font-weight: normal"> para confirmar seleção:<o:p>
+        </span><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">
+        </o:p>
+        </span></font></p>
+        <p align="left" style="margin-left: 17.85pt"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt">Specify length of segment or [Block]: </span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR; font-weight: normal">digitar o valor desejado 20<o:p>
+        &nbsp;</span></font></p>
+        <p align="right"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt"><a href="#inicio">inicio</a></span><span lang="EN-US" style="mso-bidi-font-size: 10.0pt"></o:p>
+        </span></font></p>
+        <ul type="disc">
+          <li class="MsoNormal" style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+     text-align:justify;mso-list:l1 level1 lfo1;tab-stops:list 36.0pt">
+            <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><a name="POLYLINE">POLYLINE</a>:
+            Desenha linhas e arcos contínuos formando um único objeto. A
+            espessura de sua linha é ajustável.<o:p>
+            </o:p>
+            </font>
+            </span></li>
+        </ul>
+        <p style="margin-left:17.85pt" align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Command:
+        _pline<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="margin-left:17.85pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">Specify start point: </span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR; font-weight: normal">(digite
+        uma coordenada ou dê um clique num lugar da tela que você decida)<o:p>
+        </span><span style="mso-bidi-font-size: 10.0pt">
+        </o:p>
+        </span></font></p>
+        <p style="margin-left:17.85pt" align="left"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US"><font face="Arial" size="2">Current line-width is 0.0000<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="left" style="text-align:left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Specify
+        next point or [Arc/Close/Halfwidth/Length/Undo/Width]: </span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR; font-weight: normal"> (<span style="mso-bidi-font-size: 10.0pt; font-weight: normal; mso-ansi-language: PT-BR">digite
+        line</span>)</span><span lang="EN-US" style="mso-bidi-font-size: 10.0pt"> L.<o:p>
+        </o:p>
+        </span></font></p>
+        <p style="margin-left:17.85pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">&nbsp;Specify length of line: </span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR; font-weight: normal">(digite
+        o valor desejado) </span><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">20<o:p>
+        </o:p>
+        </span></font></p>
+        <p style="margin-left:17.85pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">&nbsp;Specify next point or [Arc/Close/Halfwidth/Length/Undo/Width]: </span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR; font-weight: normal">(digite) </span><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">arc<o:p>
+        </o:p>
+        </span></font></p>
+      <p style="margin-left:17.85pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Specify endpoint of arc or [Angle/CEnter/CLose/Direction/Halfwidth/Line/Radius/Second
+        pt/Undo/Width]: </span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR; font-weight: normal">(digite
+      um valor) </span><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">50&nbsp;<o:p>
+        </o:p>
+        </span></font></p>
+        <p style="margin-left:17.85pt" align="left"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US"><font face="Arial" size="2">Specify endpoint of arc or<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="margin-left:17.85pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">[Angle/CEnter/CLose/Direction/Halfwidth/Line/Radius/Second
+        pt/Undo/Width]: </span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR; font-weight: normal">
+        (digite line)</span><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US"> L<o:p>
+        </o:p>
+        </span></font></p>
+        <p style="margin-left:17.85pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">&nbsp;Specify next point or [Arc/Close/Halfwidth/Length/Undo/Width]: </span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR; font-weight: normal">(digite o valor desejado) </span><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">20<o:p>
+        </o:p>
+        </span></font></p>
+        <p style="margin-left:17.85pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Specify next point or [Arc/Close/Halfwidth/Length/Undo/Width]: </span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR; font-weight: normal">(digite de novo Arco, agora só com:) </span><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">A<o:p>
+        </o:p>
+        </span></font></p>
+        <p style="margin-left:17.85pt" align="left"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US"><font face="Arial" size="2">&nbsp;Specify endpoint of arc or<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="margin-left: 17.85pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">[Angle/CEnter/CLose/Direction/Halfwidth/Line/Radius/Second
+        pt/Undo/Width]: </span><span style="mso-bidi-font-size: 10.0pt; mso-ansi-language: PT-BR; font-weight: normal">digite </span><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">CL
+        (close)<o:p>
+        &nbsp; </span></font></p>
+        <p style="margin-left: 17.85pt" align="right"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt"><a href="#inicio">inicio</a></span><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US"></o:p>
+        </span></font></p>
+        <ul type="disc">
+          <li class="MsoNormal" style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+     text-align:justify;mso-list:l1 level1 lfo1;tab-stops:list 36.0pt">
+            <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><a name="DTEXT">DTEXT</a>:
+            Cria uma única linha de texto.<o:p>
+            </o:p>
+            </font>
+            </span></li>
+        </ul>
+      <blockquote>
+        <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">O AutoCAD pode criar texto com vários padrões de caracteres
+        ou fontes. Essas fontes podem ser esticadas, comprimidas, inclinadas,
+        espelhadas ou alinhadas numa coluna vertical. O texto pode sofrer rotação,
+        ser justificado e assumir qualquer tamanho.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+      </blockquote>
+        <ul type="disc">
+          <li class="MsoNormal" style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt">
+            <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><a name="MTEXT">MTEXT</a><o:p>
+            </o:p>
+            </font>
+            </span></li>
+        </ul>
+      <blockquote>
+        <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Cria várias linhas de texto. Ao terminar uma linha, basta
+        pressionar enter e o novo texto é posicionado diretamente abaixo da
+        linha do texto anterior.<o:p>
+        &nbsp;</font>
+        </span></p>
+      </blockquote>
+        <p align="right"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><a href="#inicio">inicio</a></o:p>
+        </font>
+        </span></p>
+        <ul type="disc">
+          <li class="MsoNormal" style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt">
+            <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><a name="HATCH">HATCH</a><o:p>
+            </o:p>
+            </font>
+            </span></li>
+        </ul>
+      <blockquote>
+        <p style="mso-margin-top-alt:auto;margin-bottom:12.0pt" align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Hatch
+        ou Hachura é chamada à simbologia com a qual são representados os
+        diferentes materiais quando representados em vistas em cortes. Hatch
+        preenche o limite especificado com uma hachura não-associativa. Uma
+        hachura não-associativa não é atualizada quando os seus limites são
+        modificados. Um limite de hachura consiste de um ou mais objetos que
+        contêm uma área inteira fechada. Quando um limite é composto de vários
+        objetos, os pontos extremos desses objetos devem coincidir para que a
+        hachura seja criada adequadamente. A menos que outro procedimento seja
+        especificado, Hatch combina as linhas que compõem a hachura em um bloco
+        anônimo que pode ser editado.</font></span></p>
+      </blockquote>
+        <p style="mso-margin-top-alt:auto;margin-bottom:12.0pt" align="center"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt"><br>
+        </span><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:
+Arial">
+        <img src="Criac5.jpg" v:shapes="_x0000_i1029" width="486" height="409"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1029"
+  DrawAspect="Content" ObjectID="_1090072282">
+ </o:OLEObject>
+</xml><![endif]-->
+        </span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Arial"><o:p>
+        </o:p>
+        </span></font></p>
+      <blockquote>
+        <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><br>
+        Pattern:<br>
+        Determina o padrão de hachura a ser utilizado.<br>
+        Predefined:<br>
+        Habilita a escolha de padrões default armazenados no AutoCAD.<br>
+        Custom:<br>
+        Escolha de padrões personalizados de hachuras existentes em arquivos
+        específicos, que não sejam o Acad.PAT.<br>
+        User defined:<br>
+        Especifica um padrão definido pelo usuário. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Swatch:
+        Mostra o padrão escolhido<span style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Arial">.<o:p>
+        </o:p>
+        </span></font></span></p>
+        <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Angle:<span style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Arial"> 
+        </span> Pode mudar para 90o o ângulo quando
+        trabalhar com conjuntos de componentes.<o:p>
+        <span style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Arial"> 
+        </o:p>
+        </span></font></span></p>
+        <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Scale:<span style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Arial"> 
+        </span> Pode-se variar a escala segundo o tamanho do desenho.<o:p>
+        <span style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Arial"> 
+        &nbsp;
+        </span></font></span></p>
+      </blockquote>
+        <p align="right"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><a href="#inicio">inicio</a></o:p>
+        </font>
+        </span></p>
+        <ul type="disc">
+          <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt">
+            <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><a name="MAKE BLOCK">MAKE BLOCK</a>: Permite
+            salvar um desenho como um símbolo. <o:p>
+            </o:p>
+            </font>
+            </span></li>
+        </ul>
+      <blockquote>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">O
+        AutoCAD permite que transformar parte de um desenho ou arquivos inteiros
+        em bloco, que podem ser salvos e reativados a qualquer momento.<o:p>
+        &nbsp;</font>
+        </span></p>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">Quando
+        você dâ um clique no ícone Make Block ou simplesmente digita B<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial">--&gt;</span><span style="mso-bidi-font-size: 10.0pt; font-family: Arial"> enter, abre-se a seguinte caixa de
+        diálogo</span></span><span style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Arial">:<o:p>
+        </o:p>
+        </span></font></p>
+      </blockquote>
+  <center>
+        <p class="MsoNormal" align="center" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:center"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">
+        <img src="Criac6.jpg" v:shapes="_x0000_i1030" width="340" height="385"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1030"
+  DrawAspect="Content" ObjectID="_1090072284">
+ </o:OLEObject>
+</xml><![endif]-->
+        </span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Arial"><o:p>
+        </o:p>
+        </span></font></p>
+  </center>
+      <blockquote>
+        <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><br>
+        Name<br>
+        Nomeia o bloco. Os nomes de blocos podem possuir até 31 caracteres
+        podendo conter letras, dígitos e os caracteres especiais: cifrão (SI,
+        hífen(-) e traço de sublinhado U. O AutoCAD converte as letras em maiúsculas.
+        Se você digitar o nome de um bloco existente, o AutoCAD emite o
+        seguinte aviso:<br>
+        Redefine it? &lt;N&gt; Digite y<br>
+        Um bloco existente é redefinido quando as especificações do
+        componente que compõe o bloco são modificadas. Ao redefinir um bloco,
+        você automaticamente atualiza todas as referências àquele bloco.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Na
+        área de Objects:<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Retain:
+        <span style="mso-spacerun: yes">&nbsp;</span>mantêm
+        os objetos que você selecionou para seu bloco como são, imutáveis<o:p>
+        <span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Arial">
+        </o:p>
+        </span></font></span></p>
+        <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Convert
+        to Block: Converte os objetos que você&nbsp; seleciona dentro do bloco que você está definindo. Isto é,
+        que age como um objeto único uma vez que tenha completado o comando
+        Block.<o:p>
+        <span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Arial">
+        </o:p>
+        </span></font></span></p>
+        <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Delete:<span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Arial">
+        </span>
+        Deleta os objetos que você selecionou para o bloco<span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Arial">.<o:p>
+        </o:p>
+        </span></font></span></p>
+        <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Dê
+        um clique no botão <b style="mso-bidi-font-weight:normal">Select
+        Objects</b>: Faça uma janela na área de desenho para selecionar o
+        objeto ou objetos que você quer transformar em bloco <span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; font-size: 11.0pt; mso-bidi-font-size: 10.0pt; font-family: Wingdings; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial">à</span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Arial">
+        </span>
+        enter<span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Arial">
+        <br>
+        <br>
+        </span>
+        Em Base Point: dê um clique no botão Pick Point: Especifique no
+        desenho um ponto (1)<br>
+        O ponto especificado é usado como ponto de referência para as inserções
+        subseqüentes do bloco.<o:p>
+        <span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Arial">
+        </o:p>
+        </span></font></span></p>
+        <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Nesta
+        caixa de diálogo pode escolher as unidades na qual foi desenhado
+        e sera utilizado posteriormente. Também pode descrever o conteúdo do
+        bloco em Description <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Posteriormente
+        deve salvar esse bloco num arquivo determinado em que possa achar
+        facilmente, portanto, deve digitar na área de comando: WBLOCK<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial">--&gt;</span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Arial">
+ </span>enter,&nbsp; e
+        uma caixa de diálogo é aberta:<o:p>
+        <span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Arial">
+        </o:p>
+        </span></font></span></p>
+        <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Deve
+        marcar a opção Block e procurar na seta, à direita, o nome do
+        bloco que acaba de fazer, depois confirme OK <o:p>
+        </o:p>
+        </font>
+        </span></p>
+      </blockquote>
+        <p align="center" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">
+        <img src="Criac7.jpg" v:shapes="_x0000_i1031" width="413" height="450"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1031"
+  DrawAspect="Content" ObjectID="_1090072286">
+ </o:OLEObject>
+</xml><![endif]-->
+        </span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Arial"><o:p>
+        &nbsp;
+        </span></font></p>
+        <p align="right" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><a href="#inicio">inicio</a></o:p>
+        </font>
+        </span></p>
+        <ul style="margin-top:0cm" type="disc">
+          <li class="MsoNormal" style="mso-list:l0 level1 lfo2;tab-stops:list 36.0pt">
+            <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2"><a name="INSERT BLOCK">INSERT
+            BLOCK</a>: Permite inserir um bloco ou símbolo existente em qualquer
+            desenho. Para isso dê um clique no ícone de Insert Block na barra
+            de ferramenta Draw ou digite (i), a caixa de diálogo aparece em
+            seguida: <o:p>
+            </o:p>
+            </font>
+            </span></li>
+        </ul>
+      <blockquote>
+        <p align="left"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Command: i<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="left"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US"><font face="Arial" size="2">INSERT<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="left"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US"><font face="Arial" size="2">Specify insertion point or [Scale/X/Y/Z/Rotate/PScale/PX/PY/PZ/PRotate]:
+        <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">Specify rotation angle
+        &lt;0&gt;:<o:p>
+        <o:p>
+        </o:p>
+        </span></font></p>
+        <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">Acione a lista suspensa Name na parte superior da caixa de diálogo.
+        A lista do bloco disponível no desenho corrente aparece. Clique no
+        bloco desejado.<o:p>
+        </span><span lang="EN-US" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-US">&nbsp;<o:p>
+        </o:p>
+        </span></font></p>
+      </blockquote>
+        <p align="center"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">
+        <img src="Criac8.jpg" v:shapes="_x0000_i1032" width="485" height="292"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1032"
+  DrawAspect="Content" ObjectID="_1090072288">
+ </o:OLEObject>
+</xml><![endif]-->
+        </span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Arial"><o:p>
+        </o:p>
+        </span></font></p>
+      <blockquote>
+        <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">&nbsp;<o:p>
+        No grupo de botões Rotation sobre o lado direito da caixa de
+        diálogo, clique na caixa de conferência Specify On-Screen. Esta opção
+        permite você especificar graficamente o ângulo de rotação do bloco
+        ao inseri-lo.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Acione o botão OK e verá a imagem prévia do bloco
+        selecionado e o cursor coincide com o ponto que você escolheu como
+        ponto de inserção.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="left"><span style="mso-bidi-font-size: 10.0pt"><font face="Arial" size="2">Na area de comando aparece:<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">Specify insertion point or
+        [Scale/X/Y/Z/Rotate/PScale/PX/PY/PZ/PRotate]: aqui você pode mudar a escala do block, digitando
+        S e
+        posteriormente dar o fator de escala escolhido no novo desenho. A escala
+        também pode ser mudada em qualquer dos eixos x, y ou z. &nbsp;<o:p>
+        </span><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:
+Arial">
+        </o:p>
+        </span></font></p>
+        <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">Specify rotation angle &lt;0&gt;:
+        pode
+        digitar o ângulo desejado ou aceitar o Default, 0.<o:p>
+        &nbsp; </span></font></p>
+        <p align="center"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">Clique
+        <a href="p_p_desenhando_as_vistas_ortografica.htm">aqui</a> para ver um
+        passo a passo utilizando comandos de desenho e modificadores&nbsp;</span></font></p>
+        <p align="center"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">Clique
+        <a href="p_p_desenhando_objetos_em_3d.htm">aqui</a> para ver um passo a
+        passo desenhando objetos em 3D&nbsp;</span></font></p>
+      </blockquote>
+        <p align="right"><span style="mso-bidi-font-size: 10.0pt"><a href="#inicio"><font face="Arial" size="2">inicio</font></a></span></p>
+      </td>
+    </tr>
+  </table>
+</div>
+&nbsp;<!--msnavigation--></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<p>&nbsp;</p>
+<p align="center">&nbsp;</p>
+
+</td></tr><!--msnavigation--></table></body></html>

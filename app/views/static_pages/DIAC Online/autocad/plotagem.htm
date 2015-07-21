@@ -1,0 +1,704 @@
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="pt">
+<meta name="eneida gonzalez valdes curso autocad" content="eneida, gonzález, valdés, professora, desenho, técnico, expressão, gráfica, representação, autocad, 2000, apostilas, exercícios, trabalhos, práticos, geometria, descritiva, engenharia, elétrica, telecomunicações, engenheira, mecânica, iesb, unb, dibujo tecnico.">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Plotagem</title>
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:Approval_x0020_Level msdt:dt="string">Revisão do conteúdo</mso:Approval_x0020_Level>
+<mso:Categories msdt:dt="string">Em processo</mso:Categories>
+<mso:Assigned_x0020_To msdt:dt="string">Professora Eneida González Valdés</mso:Assigned_x0020_To>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+<style fprolloverstyle>A:hover {color: #0000FF; font-family: Cooper Black; font-size: 12 pt; font-weight: bold}
+</style>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+<meta name="Microsoft Border" content="tb, default">
+</head>
+
+<body onload="dynAnimation()"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<h1 align="center">
+&nbsp;</h1>
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><!--msnavigation--><td valign="top">
+<h1 align="center"><font face="Arial" size="2">
+<a href="dimensionamento.htm" onmouseover="document['fpAnimswapImgFP15'].imgRolln=document['fpAnimswapImgFP15'].src;document['fpAnimswapImgFP15'].src=document['fpAnimswapImgFP15'].lowsrc;" onmouseout="document['fpAnimswapImgFP15'].src=document['fpAnimswapImgFP15'].imgRolln"><font color="#000000">
+<img border="0" src="../images/botones_fondo/p_esquerda.gif" alt="Comandos de dimensionamento" id="fpAnimswapImgFP15" name="fpAnimswapImgFP15" dynamicanimation="fpAnimswapImgFP15" lowsrc="../images/botones_fondo/p_esquerda1.gif" width="13" height="16"></font></a><font face="Arial Black" color="#FF0000" size="5">
+ </font></font><font face="Arial Black" size="5" color="#0066FF">Plotagem</font><font face="Arial" size="2"><font face="Arial Black" color="#FF0000" size="5">
+ </font><font color="#000000">
+<a href="passo_passo.htm" onmouseover="document['fpAnimswapImgFP16'].imgRolln=document['fpAnimswapImgFP16'].src;document['fpAnimswapImgFP16'].src=document['fpAnimswapImgFP16'].lowsrc;" onmouseout="document['fpAnimswapImgFP16'].src=document['fpAnimswapImgFP16'].imgRolln">
+<img border="0" src="../images/botones_fondo/p_direita.gif" alt="Desenhe passo a passo" id="fpAnimswapImgFP16" name="fpAnimswapImgFP16" dynamicanimation="fpAnimswapImgFP16" lowsrc="../images/botones_fondo/p_direita1.gif" width="13" height="16"></a></font></font></h1>
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" width="690">
+    <tr>
+      <td>
+        <p style="text-indent: -1; mso-text-indent-alt: -9.0pt; mso-list: l12 level1 lfo17; tab-stops: list 36.0pt; margin-left: 0" align="justify"><span style="font-family:Arial"><b><font face="Arial" size="3" color="#0000FF">Configurações
+        da plotagem ou impressão&nbsp;</font></b></span></p>
+        <p style="text-indent: 0; mso-text-indent-alt: -9.0pt; mso-list: l12 level1 lfo17; tab-stops: list 36.0pt; margin-left: 0" align="justify"><font face="Arial" size="2">Neste
+        capítulo vamos dar os primeiros passos para obter a saída do desenho
+        numa impressora ou plotadora, mas, é necessário que você dedique
+        muito tempo fazendo experiências com as opções disponível no
+        AutoCAD, até familiarizar-se com sua impressora e o AutoCAD, para
+        ajustar a mesma do jeito que você gosta.&nbsp;</font></p>
+        <p style="text-indent: 0; mso-text-indent-alt: -9.0pt; mso-list: l12 level1 lfo17; tab-stops: list 36.0pt; margin-left: 0" align="justify"><font face="Arial" size="2">O
+        primeiro passo é explorar todas as
+        configurações que estão disponíveis na divisória Plot Setting da
+        caixa de diálogo, e conhecer onde configurar na plotagem: o <a href="#Tamanho"> tamanho de
+        papel</a>, <a href="#Orientação">
+        orientação de desenho</a>, a <a href="#área"> área a ser plotada</a>, as
+        <a href="#escalas"> escalas de plotagem</a>
+        que poderemos utilizar, as <a href="#Opções"> opções de plotagem</a>, como
+        <a href="#Ajustando"> centrar o desenho</a>
+        dentro da folha e por último obter uma <a href="#Full Preview"> visualização previa</a> de nosso
+        desenho!</font></p>
+        <p style="text-indent: 0; mso-text-indent-alt: -9.0pt; mso-list: l12 level1 lfo17; tab-stops: list 36.0pt; margin-left: 0" align="justify"><font face="Arial" size="2">Exemplo
+        de plotagem no Model Space com a <a href="plot_model.htm">opção Window</a>,
+        utilizando todas as configurações para plotar um desenho em formato
+        A4, ajustando a escala à folha A4 padrão, porque devo imprimir em
+        impressora comum!!!&nbsp;&nbsp;</font></p>
+        <p style="text-indent: 0; mso-text-indent-alt: -9.0pt; mso-list: l12 level1 lfo17; tab-stops: list 36.0pt; margin-left: 0" align="justify"><font face="Arial" size="2">O
+        segundo passo é mostrar como imprimir um desenho
+        no <a href="#Model Space">Model Space</a> (espaço modelo) do AutoCAD 2000.</font></p>
+        <p style="text-indent: 0; mso-text-indent-alt: -9.0pt; mso-list: l12 level1 lfo17; tab-stops: list 36.0pt; margin-left: 0" align="left"><font face="Arial" size="2">E
+        o terceiro passo é mostrar como imprimir um desenho utilizando as
+        divisórias Layout, neste caso o desenho será impresso em Paper Space
+        (espaço do papel)</font><font face="Arial" size="2"></o:p></font></p>
+        <center>
+        <p class="MsoNormal" align="center"><font face="Arial" size="2">
+        <a name="visualizacao"><map name="FPMap0">
+        <area href="#Tamanho" shape="rect" coords="30, 39, 385, 123">
+        <area href="#Orientação" shape="rect" coords="410, 39, 558, 123">
+        <area href="#área" shape="rect" coords="29, 144, 101, 264">
+        <area href="#escalas" shape="rect" coords="241, 140, 506, 227">
+        <area href="#Ajustando" shape="rect" coords="240, 247, 396, 334">
+        <area href="#Opções" shape="rect" coords="407, 240, 566, 334">
+        <area href="#Full Preview" shape="rect" coords="11, 350, 113, 372">
+        <area href="plot_model.htm" shape="rect" coords="118, 295, 217, 319"></map>
+        <img src="plotag1.jpg" v:shapes="_x0000_i1025" usemap="#FPMap0" width="589" height="380"></a><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1102409404">
+ </o:OLEObject>
+</xml><![endif]-->
+        <o:p>
+        </o:p>
+        </font></p>
+        <p style="text-align:justify"><font face="Arial" size="2"><b style="mso-bidi-font-weight:
+normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;"><a name="Tamanho">Tamanho</a>
+        do Papel e unidades do papel: </span></b><span style="font-family:Arial;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:bold"><span style="mso-spacerun: yes">&nbsp;</span>(Paper
+        size and paper units)<o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="text-align:justify"><span style="font-family:Arial;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:bold"><font face="Arial" size="2">As
+        opções neste grupo permitem que você selecione o tamanho do papel e o
+        sistema de unidades que está sendo utilizado.</font></span><b style="mso-bidi-font-weight:
+normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;"><font face="Arial" size="2">&nbsp;<o:p>
+        </o:p>
+        </font></span></b></p>
+        <p class="MsoNormal" style="text-align:justify"><font face="Arial" size="2"><b style="mso-bidi-font-weight:
+normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;"><a name="Orientação">Orientação</a>
+        do Desenho: (</span></b><span style="font-family:Arial;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-weight:bold">Drawing orientation)</span></font><span style="font-family:Arial;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:bold"><font face="Arial" size="2">&nbsp;<o:p>
+        </o:p>
+        </font></span></p>
+        <p class="MsoNormal" style="text-align:justify"><span style="font-family:Arial;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:bold"><font face="Arial" size="2">Aparecem
+        três opções para orientar o seu desenho. A opção default é a opção
+        panorâmica ou paisagem (Landscape), com ela você vê seu desenho
+        colocado horizontalmente na folha do papel escolhida antecipadamente; a
+        opção (Portrait), retrato, gira a imagem do papel 90<sup>o</sup>
+        colocando a folha vertical, uma terceira opção é selecionado<span style="mso-spacerun: yes">&nbsp;
+        </span>Plot upside-down perite que você vire de cabeça para baixo a
+        orientação retrato ou panorâmica.<o:p>
+        </o:p>
+        </font></span></p>
+        <p class="MsoNormal" style="text-align:justify"><font face="Arial" size="2"><b style="mso-bidi-font-weight:
+normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Plotando
+        uma <a name="área">área</a>:</span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-weight:bold"> (Plot area) <o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="text-align:justify"><span style="font-family:Arial;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:bold"><font face="Arial" size="2">Os
+        botões que aparecem na parte inferior esquerda da caixa de diálogo<span style="mso-spacerun: yes">&nbsp;
+        </span>Plot permitem que você especifique que parte de seu desenho
+        deseja plotar.<o:p>
+        </o:p>
+        </font></span></p>
+        <blockquote>
+          <p class="MsoNormal" style="text-align:justify"><font face="Arial" size="2"><b style="mso-bidi-font-weight:
+normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Limit:</span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:
+bold"> esta opção usa os limites do desenho para determinar o que imprimir. Se
+          você deixar o AutoCAD ajustar o desenho na folha do papel (Scaled to
+          Fit), a plotagem apresenta exatamente a mesma coisa que você veria na
+          tela se tivesse selecionado View</span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; font-family: Wingdings; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-weight: bold">à</span><span style="font-family:Arial;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:bold">Zoom
+          </span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; font-family: Wingdings; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-weight: bold">à</span><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:
+bold">All.<o:p>
+          </o:p>
+          </span></font></p>
+          <p class="MsoNormal" style="text-align:justify"><font face="Arial" size="2"><b style="mso-bidi-font-weight:
+normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Extents:
+          </span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-weight:bold">esta opção desenha o desenho todo eliminando
+          qualquer espaço que possa contorná-lo. Se você deixar o AutoCAD
+          ajustar o desenho na folha do papel (Scaled to Fit), a plotagem
+          apresenta exatamente a mesma coisa que você veria na tela se tivesse
+          selecionado View</span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; font-family: Wingdings; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-weight: bold">à</span><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:
+bold">Zoom </span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; font-family: Wingdings; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-weight: bold">à</span><span style="font-family:Arial;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:bold">Extents.<o:p>
+          </o:p>
+          </span></font></p>
+          <p class="MsoNormal" style="text-align:justify"><font face="Arial" size="2"><b style="mso-bidi-font-weight:
+normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">View:
+          </span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-weight:bold"><span style="mso-spacerun: yes">&nbsp;</span>a opção
+          de impressão View usa uma exibição já salva para determinar o que
+          será sua impressão. Para usar esta opção você deve primeiro criar
+          uma exibição.<o:p>
+          </o:p>
+          </span></font></p>
+          <p class="MsoNormal" style="text-align:justify"><font face="Arial" size="2"><b style="mso-bidi-font-weight:
+normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Janela:
+          </span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-weight:bold">(Windows) esta opção permite que você indique uma
+          área que deseja plotar. Nada do que estiver fora da janela será
+          impresso. Para usar esta opção, acione o botão Windows. Depois,
+          indique a janela no editor de desenho. A caixa de diálogo será
+          temporariamente fechada para que você selecione os pontos. Quando
+          terminar, acione OK.<o:p>
+          </o:p>
+          </span></font></p>
+        </blockquote>
+        <p class="MsoNormal" style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;mso-text-indent-alt:-9.0pt;mso-list:l12 level1 lfo17;tab-stops:list 36.0pt"><font face="Arial" size="2"><span style="font-family:Arial"><b><span style="font-style: normal; font-variant: normal; font-size: 7.0pt; font-family: Times New Roman">&nbsp;</span>Escalas
+        de Plotagem:</b> (Plot Scale)<o:p>
+        <a name="escalas"></a></o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="text-align:justify"><span style="font-family:Arial"><font face="Arial" size="2">&nbsp;</font></span><font face="Arial" size="2"><span style="font-family: Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>Esta tabela já foi explicada no capítulo de gerenciamento do
+        AutoCAD, para determinar o tamanho dos textos a serem inseridos no
+        desenho, dependendo da escala de plotagem. Agora vamos voltar ver para
+        que possam definir a partir do tamanho de seu desenho original o tamanho
+        do desenho plotado, dependendo do formato a utilizar.</font><span style="font-family:Arial"><font face="Arial" size="2">&nbsp;<o:p>
+        </o:p>
+        </font></span></p>
+<table border="1" width="100%" height="267" bordercolor="#000080" bordercolorlight="#0000FF">
+  <tr>
+    <td width="16%" align="center" height="39" rowspan="2">
+      <p align="center"><font face="Arial" size="2">Escala<o:p>
+      &nbsp;</font></p>
+    </td>
+    <td width="84%" colspan="5" height="13">
+      <p align="center"><font face="Arial" size="2">Área
+      do formato escolhido para plotar</font></td>
+  </tr>
+  <tr>
+    <td width="16%" height="26">
+      <p align="center"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: ES; mso-bidi-language: HE"><font face="Arial" size="2">A0
+      (mm) (841x1189)</font></span></p>
+    </td>
+    <td width="17%" height="26">
+      <p align="left"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: ES; mso-bidi-language: HE"><font face="Arial" size="2">A1
+      (mm) (594x841)</font></span></p>
+    </td>
+    <td width="17%" height="26">
+      <p align="left" style="text-indent: 0cm; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: page; mso-element-anchor-horizontal: margin; mso-element-top: 295.95pt; mso-height-rule: exactly"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: ES; mso-bidi-language: HE"><font face="Arial" size="2">A2
+      (mm) (420x594)</font></span></td>
+    <td width="17%" height="26">
+      <p align="center"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: ES; mso-bidi-language: HE"><font face="Arial" size="2">A3
+      (mm) (297x420)</font></span></p>
+    </td>
+    <td width="17%" height="26">
+      <p align="center"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: ES; mso-bidi-language: HE"><font face="Arial" size="2">A4
+      (mm) (210x297)</font></span></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19"><font face="Arial" size="2">1:5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">420x594(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">&nbsp;297x420(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">210x297(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">148x210(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">105x148(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">841x1189(cm)</font></p>
+    </td>
+    <td width="17%" height="19">
+      <p align="center"><font face="Arial" size="2">594x841(cm)</font></p>
+    </td>
+    <td width="17%" height="19">
+      <p align="center"><font face="Arial" size="2">420x594(cm)</font></p>
+    </td>
+    <td width="17%" height="19">
+      <p align="center"><font face="Arial" size="2">297x420(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">210x297(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1682x2378(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1188x1682(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">840x1188(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">594x841(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">420x594(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2102x2972(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1485x2102(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1050x1485(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">742x1050(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">525x742.5(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:40&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">3360x4756(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2376x3360(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1680x2376(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1188x1680(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">840x1188(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:50&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">4200x5940(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2970x4200(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2100x2970(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1480x2100(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1050x1480(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:75&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">6307x8917(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">4455x6307(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">3150x4455(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2227x3450(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1575x2227(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">8410x11890(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">5940x8410(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">4200x5940(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2970x4200(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2100x2970(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:125&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">10512x14862(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">7425x10512(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">5250x7425(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">3712x5250(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2625x3712(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" height="19">
+      <p align="left"></td>
+    <td width="84%" height="19" colspan="5">
+      <p align="center"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: ES; mso-bidi-language: HE"><font face="Arial" size="2">Dimensões da área
+      de trabalho na tela do AutoCAD</font></span></p>
+    </td>
+  </tr>
+</table>
+        <p class="MsoNormal" style="text-align:justify"><font face="Arial" size="2"><span style="font-family:Arial">Scale:
+        <span style="mso-spacerun:
+yes">&nbsp;</span>você pode selecionar a escala de desenho a partir de um
+        conjunto predefinido de escalas. Estas são oferecidas a partir da lista
+        suspensa Scale. Estas opções cobrem a maioria das escalas mais comuns
+        de que necessitará.</span></font><span style="font-family:Arial"><font face="Arial" size="2">&nbsp;<o:p>
+        </o:p>
+        </font></span></p>
+        <p class="MsoNormal" style="text-align:justify"><font face="Arial" size="2"><span style="font-family:Arial">Custom:
+        em caso de não encontrar a escala desejada pode utilizar as duas caixas
+        de entrada CUSTOM.<o:p>
+        </o:p>
+        </span></font></p>
+        <p style="margin-left:36.0pt;text-align:justify;text-indent:
+-36.0pt;mso-text-indent-alt:-9.0pt;mso-list:l12 level1 lfo17;tab-stops:list 36.0pt"><span style="font-family:Arial"><font face="Arial" size="2"><b><a name="Opções">Opções</a> de
+        Plotagem</b>:<o:p>
+        &nbsp;<o:p>
+        </o:p>
+        </font></span></p>
+        <p class="MsoNormal" style="text-align:justify"><font face="Arial" size="2"><span style="font-family:Arial">Com
+        espessuras de linhas: O AutoCAD lhe permite atribuir espessuras de linha
+        a objetos, seja através<span style="mso-spacerun: yes">&nbsp; </span>da
+        atribuição da camada ou<span style="mso-spacerun: yes">&nbsp; </span>seja
+        diretamente atribuindo uma espessura de linha ao próprio objeto. Esta
+        opção permite ativar ou desativar as espessuras na sua saída.<o:p>
+        </span></font><span style="font-family:Arial"><font face="Arial" size="2">&nbsp;<o:p>
+        </o:p>
+        </font></span></p>
+        <p class="MsoNormal" style="text-align:justify"><span style="font-family:Arial"><font face="Arial" size="2"><b><a name="Ajustando">Ajustando</a>
+        a origem da plotagem:<o:p>
+        &nbsp;<o:p>
+        </o:p>
+        </b>
+        </font></span></p>
+        <p class="MsoNormal" style="text-align:justify"><span style="font-family:Arial"><font face="Arial" size="2">Em
+        caso do desenho não ficar centrado na área de impressão pode utilizar
+        as caixas do Plot Offset colocando na caixa X um valor e na caixa Y
+        outro valor, isto fará que o seu desenho se irá deslocar nos valores
+        previstos por você. <o:p>
+        </o:p>
+        </font></span></p>
+        <p class="MsoNormal" align="center" style="text-align:center"><font face="Arial" size="2">
+        <img src="plotag2.jpg" v:shapes="_x0000_i1026" width="503" height="356"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1026"
+  DrawAspect="Content" ObjectID="_1102409406">
+ </o:OLEObject>
+</xml><![endif]-->
+        </font></p>
+        <p class="MsoNormal" align="center"><font face="Arial" size="2">&nbsp;<o:p>
+        <img src="plotag3.jpg" v:shapes="_x0000_i1027" width="518" height="352"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1027"
+  DrawAspect="Content" ObjectID="_1102409407">
+ </o:OLEObject>
+</xml><![endif]-->
+        <span style="font-family:Arial"><o:p>
+        </o:p>
+        </span>
+        </font></p>
+        <p class="MsoNormal" style="text-align:justify"><font face="Arial" size="2"><b><a name="Full Preview">Full
+        Preview</a>: </b>No canto inferior esquerdo da caixa de diálogo de Plot
+        Setting, você tem dois botões: Full Preview e Parcial Preview, este
+        último mostra uma visualização parcial da saída, mas, você que ver
+        como deve sair completo!!! portanto, clique em Full Preview para visualizar como seu desenho deve sair na impressão,
+        em caso de não gostar ou se quizer fazer alguma modificação, pode dar
+        um clique com o botão da direita do mouse e escolher Exit para voltar
+        para a caixa de diálogo, ou se acha que está pronto para ser impresso,
+        dê um clique com o botão da direita do mouse e escolha PLOT.&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+  <p class="MsoNormal" style="text-align:justify"><b style="mso-bidi-font-weight:normal"><font face="Arial" size="2"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Impressão
+        em <a name="Model Space"> Model Space </a> (Espaço do Modelo):<o:p>
+        </span></font></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:
+bold"><font face="Arial" size="2">&nbsp;<o:p>
+        </o:p>
+        </font></span></p>
+        <p class="MsoNormal" style="text-align:justify;text-indent:1.0cm"><font face="Arial" size="2"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:
+bold">Para ver como funciona o comando </span><b style="mso-bidi-font-weight:
+normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Plot,</span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:
+bold"> você vai imprimir uma das figuras do Trabalho Prático 2. comece obtendo
+        uma vista prévia do seu desenho plotado, antes de fazer a plotagem do
+        mesmo.<o:p>
+        </o:p>
+        </span></font></p>
+        <ol style="margin-top:0cm" start="1" type="1">
+          <li class="MsoNormal" style="text-align:justify;mso-list:l6 level1 lfo10;
+     tab-stops:list 36.0pt"><span style="font-family:Arial;mso-bidi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-weight:bold"><font face="Arial" size="2">Certifique-se
+            que sua impressora ou plotadora esteja ligada e conectada a seu
+            computador;<o:p>
+            </o:p>
+            </font></span></li>
+          <li class="MsoNormal" style="text-align:justify;mso-list:l6 level1 lfo10;
+     tab-stops:list 36.0pt"><span style="font-family:Arial;mso-bidi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-weight:bold"><font face="Arial" size="2">Inicie
+            o AutoCAD e abra o arquivo que se quer plotar;<o:p>
+            </o:p>
+            </font></span></li>
+          <li class="MsoNormal" style="text-align:justify;mso-list:l6 level1 lfo10;
+     tab-stops:list 36.0pt"><font face="Arial" size="2"><span style="font-family:Arial;mso-bidi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-weight:bold">Acione View </span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; font-family: Wingdings; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-weight: bold">à</span><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold">Zoom</span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; font-family: Wingdings; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-weight: bold">à</span><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold">All<span style="mso-spacerun: yes">&nbsp; </span>para
+            exibir o desenho inteiro;<o:p>
+            </o:p>
+            </span></font></li>
+          <li class="MsoNormal" style="text-align:justify;mso-list:l6 level1 lfo10;
+     tab-stops:list 36.0pt"><font face="Arial" size="2"><span style="font-family:Arial;mso-bidi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-weight:bold">Escolha File </span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; font-family: Wingdings; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-weight: bold">à</span><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold"> Plot. Aparecerá a caixa de dialogo Plot:<o:p>
+            </o:p>
+            </span></font></li>
+        </ol>
+        <h2 style="margin-left:0cm;text-align:justify"><font face="Arial" size="2">Plotando
+        com a opção Display:</font></h2>
+        <ol style="margin-top:0cm" start="5" type="1">
+          <li class="MsoNormal" style="text-align:justify;mso-list:l6 level1 lfo10;
+     tab-stops:list 36.0pt"><font face="Arial" size="2"><span style="font-family:Arial;mso-bidi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-weight:bold">Certifique-se de ter
+            selecionado a divisória </span><b style="mso-bidi-font-weight:normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Plot
+            Setting</span></b><span style="font-family:Arial;mso-bidi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-weight:bold"> e, em seguida
+            clique no botão </span><b style="mso-bidi-font-weight:normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Display</span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold"> do grupo de botões </span><b style="mso-bidi-font-weight:
+     normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Plot
+            Área. </span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold">Esta opção plota o desenho como ele aparece na
+            área de desenho;<o:p>
+            </o:p>
+            </span></font></li>
+          <li class="MsoNormal" style="text-align:justify;mso-list:l6 level1 lfo10;
+     tab-stops:list 36.0pt"><font face="Arial" size="2"><span style="font-family:Arial;mso-bidi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-weight:bold">Verifique se a opção
+            </span><b style="mso-bidi-font-weight:normal"><span style="font-family:Arial;
+     mso-bidi-font-family:&quot;Times New Roman&quot;">Scale to Fit</span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold"> está selecionada no grupo de botões </span><b style="mso-bidi-font-weight:normal"><span style="font-family:Arial;
+     mso-bidi-font-family:&quot;Times New Roman&quot;">Plot scale;</span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold"><o:p>
+            </o:p>
+            </span></font></li>
+          <li class="MsoNormal" style="text-align:justify;mso-list:l6 level1 lfo10;
+     tab-stops:list 36.0pt"><font face="Arial" size="2"><span style="font-family:Arial;mso-bidi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-weight:bold">Dê um clique no botão
+            </span><b style="mso-bidi-font-weight:normal"><span style="font-family:Arial;
+     mso-bidi-font-family:&quot;Times New Roman&quot;">Full Preview</span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold"> no canto inferior esquerdo da caixa de diálogo
+            e mostra o desenho como ele aparecerá na saída da impressora:<o:p>
+            </o:p>
+            </span></font></li>
+        </ol>
+        <p class="MsoNormal" align="center" style="text-align:center"><font face="Arial" size="2">
+        <img src="plotag4.jpg" v:shapes="_x0000_i1028" width="568" height="377"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1028"
+  DrawAspect="Content" ObjectID="_1102409408">
+ </o:OLEObject>
+</xml><![endif]-->
+        <span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-weight:bold"><o:p>
+        </o:p>
+        </span></font></p>
+        <ol start="8">
+          <li>
+            <p class="MsoNormal" style="text-align:justify"><font face="Arial" size="2"><span style="font-family:Arial;mso-bidi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-weight:bold">Agora você pode
+            plotar seu desenho, dê um clique no botão direito do mouse e
+            escolha a opção </span><b style="mso-bidi-font-weight:normal"><span style="font-family:Arial;
+     mso-bidi-font-family:&quot;Times New Roman&quot;">Plot</span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold"> a partir do menu instantâneo;<o:p>
+            </o:p>
+            </span></font></li>
+          <li class="MsoNormal" style="text-align:justify;mso-list:l6 level1 lfo10;
+     tab-stops:list 36.0pt"><span style="font-family:Arial;mso-bidi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-weight:bold"><font face="Arial" size="2">Pode
+            verificar que o AutoCAD imprime seu desenho numa escala particular
+            (neste caso foi 1: 1,032 )<o:p>
+            </o:p>
+            </font></span></li>
+        </ol>
+        </center>
+        <p class="MsoBodyTextIndent3" align="left"><font face="Arial" size="2">Agora você
+        pode ver como ficou impresso seu desenho. Esta é a configuração mínima
+        que assegura que seu desenho completo apareça no papel. Neste caso você
+        não escolheu um tamanho de papel determinado sendo o desenho plotado na
+        opção default do AutoCAD.</font></p>
+        <center>
+        <p class="MsoNormal" style="text-align:justify"><font face="Arial" size="2"><b style="mso-bidi-font-weight:
+normal"><span style="font-family:Arial">Plotando com a opção Extents</span></b><span style="font-family:Arial">:<o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoBodyTextIndent"><font face="Arial" size="2">Os itens de 1
+        à 4 da opção Display são iguais para a opção Extents, portanto,
+        vamos prosseguir a partir do item 5.</font></p>
+        <ol style="margin-top:0cm" start="5" type="1">
+          <li class="MsoNormal" style="text-align:justify;mso-list:l14 level1 lfo4;
+     tab-stops:list 36.0pt"><font face="Arial" size="2"><span style="font-family:Arial;mso-bidi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-weight:bold">Certifique-se de ter
+            selecionado a divisória </span><b style="mso-bidi-font-weight:normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Plot
+            Setting</span></b><span style="font-family:Arial;mso-bidi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-weight:bold"> e, em seguida
+            clique no botão </span><b style="mso-bidi-font-weight:normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Extents</span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold"> do grupo de botões </span><b style="mso-bidi-font-weight:
+     normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Plot
+            Área. </span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold">A plotagem apresenta exatamente o que veria na
+            tela se tivesse selecionado View</span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; font-family: Wingdings; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-weight: bold">à</span><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold">Zoom </span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; font-family: Wingdings; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-weight: bold">à</span><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold">Extents; <o:p>
+            </o:p>
+            </span></font></li>
+          <li class="MsoNormal" style="text-align:justify;mso-list:l14 level1 lfo4;
+     tab-stops:list 36.0pt"><font face="Arial" size="2"><span style="font-family:Arial;mso-bidi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-weight:bold">Selecione a opção </span><b style="mso-bidi-font-weight:normal"><span style="font-family:Arial;
+     mso-bidi-font-family:&quot;Times New Roman&quot;">1:1</span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold"> no grupo de botões </span><b style="mso-bidi-font-weight:
+     normal"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;">Plot
+            scale;</span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold"><o:p>
+            </o:p>
+            </span></font></li>
+          <li class="MsoNormal" style="text-align:justify;mso-list:l14 level1 lfo4;
+     tab-stops:list 36.0pt"><font face="Arial" size="2"><span style="font-family:Arial;mso-bidi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-weight:bold">Dê um clique no botão
+            </span><b style="mso-bidi-font-weight:normal"><span style="font-family:Arial;
+     mso-bidi-font-family:&quot;Times New Roman&quot;">Full Preview</span></b><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-weight:bold"> no canto inferior esquerdo da caixa de diálogo
+            e mostra o desenho como ele aparecerá na saída da impressora:<o:p>
+            </o:p>
+            </span></font></li>
+          <li class="MsoNormal" style="text-align:justify;mso-list:l14 level1 lfo4;
+     tab-stops:list 36.0pt"><span style="font-family:Arial"><font face="Arial" size="2">Agora
+            você pode plotar seu desenho, dê um clique no botão direito do
+            mouse e escolha a opção <b style="mso-bidi-font-weight:normal">Plot</b>
+            a partir do menu instantâneo;<o:p>
+            </o:p>
+            </font></span></li>
+        </ol>
+        <p class="MsoNormal" style="margin-left:49.0pt;text-align:justify"><span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:
+bold"><font face="Arial" size="2">Agora você pode ver como ficou impresso seu
+        desenho. <o:p>
+        </o:p>
+        </font></span></p>
+        <p class="MsoNormal" align="center" style="text-align:center"><font face="Arial" size="2">
+        <img src="plotag5.jpg" v:shapes="_x0000_i1029" width="264" height="360"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1029"
+  DrawAspect="Content" ObjectID="_1102409409">
+ </o:OLEObject>
+</xml><![endif]-->
+        </font></p>
+        <p class="MsoNormal" align="center" style="text-align:center"><font face="Arial" size="2">
+        <img src="plotag6.jpg" v:shapes="_x0000_i1030" width="268" height="355"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1030"
+  DrawAspect="Content" ObjectID="_1102409410">
+ </o:OLEObject>
+</xml><![endif]-->
+        </font></p>
+        <p class="MsoNormal" style="text-align:justify"></center><font face="Arial" size="2">No seguinte caso foi
+        configurada para área Extents, orientação do papel panorâmica ou
+        paisagem, a escala foi ajustada ao tamanho do papel (o desenho não está
+        em verdadeira grandeza).</font></p>
+        <center>
+        <p class="MsoNormal" align="center" style="text-align:center"><font face="Arial" size="2">
+        <img src="plotag7.jpg" v:shapes="_x0000_i1031" width="514" height="355"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1031"
+  DrawAspect="Content" ObjectID="_1102409411">
+ </o:OLEObject>
+</xml><![endif]-->
+        <span style="font-family:Arial;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-weight:bold"><o:p>
+        </o:p></span></font></p>
+        </center>
+        <p class="MsoNormal" align="left"><span style="font-family:Arial;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:bold"><font face="Arial" size="2"> </o:p>
+        </font></span></p>
+        <center>
+        <p class="MsoNormal" style="text-align:justify"><span style="font-family:Arial;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:bold"><font face="Arial" size="2">&nbsp;<o:p>
+        </o:p>
+        </font></span></p>
+        <p class="MsoNormal" style="text-align:justify"><span style="font-family:Arial;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:bold"><font face="Arial" size="2">&nbsp;<o:p>
+        </o:p>
+        </font></span></p>
+        <p>&nbsp;</center></td>
+    </tr>
+  </table>
+</div>
+&nbsp;<!--msnavigation--></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<p>&nbsp;</p>
+<p align="center">&nbsp;</p>
+
+</td></tr><!--msnavigation--></table></body></html>

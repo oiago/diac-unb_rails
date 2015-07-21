@@ -1,0 +1,538 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="eneida gonzalez valdes curso autocad 2000" content="eneida, gonzález, valdés, professora, desenho, técnico, expressão, gráfica, representação, autocad, 2000, apostilas, exercícios, trabalhos, práticos, geometria, descritiva, engenharia, elétrica, telecomunicações, engenheira, mecânica, iesb, unb, dibujo tecnico">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Dimensionamento</title>
+<style fprolloverstyle>A:hover {color: #0000FF; font-family: Arial; font-size: 12 pt; font-weight: bold}
+</style>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+<meta name="Microsoft Border" content="tb, default">
+</head>
+
+<body onload="dynAnimation()"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<h1 align="center">
+&nbsp;</h1>
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><!--msnavigation--><td valign="top">
+<h1 align="center"><font face="Arial" size="2" color="#000000">
+<a href="modificadores.htm" onmouseover="document['fpAnimswapImgFP15'].imgRolln=document['fpAnimswapImgFP15'].src;document['fpAnimswapImgFP15'].src=document['fpAnimswapImgFP15'].lowsrc;" onmouseout="document['fpAnimswapImgFP15'].src=document['fpAnimswapImgFP15'].imgRolln">
+<img border="0" src="../images/botones_fondo/p_esquerda.gif" alt="Comandos para modificar os desenhos" id="fpAnimswapImgFP15" name="fpAnimswapImgFP15" dynamicanimation="fpAnimswapImgFP15" lowsrc="../images/botones_fondo/p_esquerda1.gif" width="13" height="16"></a>
+</font><font face="Arial Black" color="#0066FF" size="5">Dimensionamento</font><font face="Arial Black" size="5" color="#FF0000">
+</font><font face="Arial" size="2" color="#000000">
+<a href="plotagem.htm" onmouseover="document['fpAnimswapImgFP16'].imgRolln=document['fpAnimswapImgFP16'].src;document['fpAnimswapImgFP16'].src=document['fpAnimswapImgFP16'].lowsrc;" onmouseout="document['fpAnimswapImgFP16'].src=document['fpAnimswapImgFP16'].imgRolln">
+<img border="0" src="../images/botones_fondo/p_direita.gif" alt="Quer saber como imprimir?" id="fpAnimswapImgFP16" name="fpAnimswapImgFP16" dynamicanimation="fpAnimswapImgFP16" lowsrc="../images/botones_fondo/p_direita1.gif" width="13" height="16"></a></font></h1>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="690">
+    <tr>
+      <td><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Já mostramos como desenhar os objetos
+        agora vamos dimensiona-los!!!</font></span>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Quando vamos fazer&nbsp;a&nbsp; cotagem dos
+        objetos desenhados utilizamos os comandos&nbsp; de dimensionamento que
+        aparecem no menu suspenso no menu principal --&gt;Dimension,
+        também podem ser acionados através do menu flutuante que aparece em
+        View--&gt;Toolbars e selecionar Dimension, através do teclado pode ser
+        digitado D, Dim, DDim e para abrir a configuração Setting --&gt;Dimstyle</font></span></p>
+        <p><font face="Arial" size="2"><a href="#Criando"><span style="mso-bidi-font-size: 12.0pt">Primeiro passo</span> </a>
+        <span style="mso-bidi-font-size: 12.0pt">
+        é&nbsp; criar um estilo de dimensão para ser utilizado em nosso
+        desenho</span> </font></p>
+        <p><font face="Arial" size="2"><a href="#&nbsp; Barra de Dimension"><span style="mso-bidi-font-size: 12.0pt">Segundo passo</span></a> <span style="mso-bidi-font-size: 12.0pt"> é
+        conhecer que como utilizar cada comando da barra Dimension &nbsp;</span></font></p>
+        <p><font face="Arial" size="2"><a href="#Editando"><span style="mso-bidi-font-size: 12.0pt">Terceiro
+        passo</span></a> <span style="mso-bidi-font-size: 12.0pt"> é saber como editar e modificar as dimensões já colocadas.</span></font></p>
+        <div align="center">
+          <table border="0" cellpadding="0" cellspacing="0" width="566">
+            <tr>
+              <td>
+                <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">
+                <img src="dimens1.jpg" v:shapes="_x0000_i1025" width="566" height="462"></font></span></td>
+            </tr>
+          </table>
+        </div>
+        <p><font face="Arial" size="2"><a name="Criando"><span style="mso-bidi-font-size: 12.0pt"><font color="#0000FF">Criando</font>
+        </span></a> <span style="mso-bidi-font-size: 12.0pt"><font color="#0000FF"> um estilo de
+        dimensão</font>:<o:p>
+        </o:p>
+        </span></font></p>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Os estilos de dimensão são
+        semelhantes aos estilos de textos. Eles determinam a aparência das suas
+        cotas e também a amplitude dos recursos de dimensionamento. Um estilo
+        de dimensão pode ser configurado para que tenha diferentes tipos de <a href="#3.">
+        limites da linha de cota</a>, configurar a marca de <a href="#4.">centro
+        de círculos</a> ou arcos, para que o texto fique centrado e acima da
+        linha de cota segundo o método 1 das normas ABNT ou centrado dentro da linha de
+        cotas segundo o método 2 das normas ABNT, assim como configurar
+        o tamanho do texto para diferentes escalas de desenho. Todos estes
+        estilos de dimensão vão simplificar e facilitar seu desenho,
+        permitindo armazenar e repetir a maioria das definições mais comuns de
+        dimensionamento.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">O
+        AutoCAD oferece um estilo de dimensão default chamado ISO-25, ou Standard, dependendo do sistema de medidas que se use.<o:p>
+        </o:p>
+        </font>
+        </span>
+        </p>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Agora
+        vamos&nbsp; configurar um novo estilo de dimensão que chamaremos
+        Trabalho Prático, e para isto necessitamos abrir o formato A4 desenhado
+        anteriormente que será utilizado para fazer os trabalhos práticos do
+        semestre.</o:p>
+        </font>
+        </span>
+        </p>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Vamos
+        abrir o arquivo Formato A4 do exercício 1 de AutoCAD:<o:p>
+        &nbsp;<o:p>
+        &nbsp;</font></span>
+        </p>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dê um clique em Zoom--&gt;Extents
+              para colocar todo o desenho na tela.<o:p>
+        &nbsp;</font></span></p>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dê um clique em Format--&gt;Dimension
+              Style, ou digite D--&gt;enter,
+              a caixa de dialogo de Estilos de dimensões aparecerá.<o:p>
+        &nbsp;<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="center"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">
+        <img src="dimens2.jpg" v:shapes="_x0000_i1026" width="566" height="395"><o:p>
+        &nbsp;&nbsp; <o:p>
+        &nbsp;</font></span></p>
+        <ul style="margin-top:0cm" type="square">
+          <li class="MsoNormal" style="text-align:justify;mso-list:l0 level1 lfo2;
+     tab-stops:list 36.0pt"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">O
+            estilo
+            que aparece como default, é o estilo ISO_25 para
+            usuários do sistema métrico, em caso de outro sistema aparecerá o
+            estilo Standard.<o:p>
+            </o:p>
+            </font>
+            </span>
+          </li>
+          <li class="MsoNormal" style="text-align:justify;mso-list:l0 level1 lfo2;
+     tab-stops:list 36.0pt"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dê um clique em New
+            para criar um novo estilo para os trabalhos práticos.
+            A caixa de diálogo New dimension Style aparecerá.<o:p>
+            </o:p>
+            </font>
+            </span>
+          </li>
+        </ul>
+        <p align="center"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">&nbsp;<o:p>
+        <img src="dimens3.jpg" v:shapes="_x0000_i1027" width="435" height="207"><o:p>
+        </o:p>
+        </font>
+        </span>
+        </p>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">§&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        O nome Copy of Standard ou Iso-25
+        está realçado na caixa de entrada New Style Name, agora, digite
+        Trabalho Pratico.<o:p>
+        &nbsp;</font></span></p>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dê um clique em continue. A caixa de diálogo New dimension
+        Style detalhada aparecerá.<o:p>
+        &nbsp;<o:p>
+        &nbsp;</font></span></p>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dê
+        um clique nos números que aparecem na figura</o:p>
+        </font>
+        </span></p>
+        <p align="center"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">
+        <map name="FPMap0">
+        <area href="#1." shape="rect" coords="71, 70, 86, 86">
+        <area href="#2." shape="rect" coords="71, 248, 92, 269">
+        <area href="#3." shape="rect" coords="269, 195, 285, 213">
+        <area href="#4." shape="rect" coords="337, 329, 355, 348"></map>
+        <img border="0" src="dimens4.jpg" usemap="#FPMap0" width="532" height="448"><a name="centro"></a></o:p>
+        </font>
+        </span>
+        </p>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Você
+        acabou de criar um estilo de dimensão chamado Trabalho Prático, mas até
+        agora ele é idêntico ao estilo Standard. <o:p>
+        </o:p>
+        </font>
+        </span>
+        </p>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Agora
+        vamos configurar o estilo Trabalho Prático para trabalhar nos
+        exercícios práticos da disciplina.<o:p>
+        &nbsp;</font></span>
+        </p>
+        <ul>
+          <li><font face="Arial" size="2"><a name="1."><span style="mso-bidi-font-size: 12.0pt"><font color="#0000FF">1</font>.</span></a>
+            <span style="mso-bidi-font-size: 12.0pt">
+            As linhas de dimensão ou linhas de cotas devem ser configuradas
+            segundo a camada de cotagem configurada previamente em Layer,
+            portanto escolha BYLAYER, aqui também devemos configurar o
+            espaçamento da cotagem paralela para que fique a uma distância de
+            8 mm da dimensão de base.</span></font></li>
+          <li><font face="Arial" size="2"><a name="2."><span style="mso-bidi-font-size: 12.0pt"><font color="#0000FF">2</font>.</span></a>
+            <span style="mso-bidi-font-size: 12.0pt">
+            As linhas de extensão ou linhas de chamadas também devem ser
+            configuradas segundo a camada de cotagem configurada previamente em
+            Layer, portanto escolha BYLAYER</span></font></li>
+          <li><font face="Arial" size="2"><a name="3."><span style="mso-bidi-font-size: 12.0pt"><font color="#0000FF">3</font>.</span></a>
+            <span style="mso-bidi-font-size: 12.0pt">
+            Aqui pode escolher diferentes tipos de
+        limites da linha de cota,assim como o tamanho dos mesmos, estes podem
+            ser setas, traço oblíquo ou outros.&nbsp;</span></font></li>
+          <li><font face="Arial" size="2"><a name="4."><span style="mso-bidi-font-size: 12.0pt"><font color="#0000FF">4</font>.
+            </span></a>
+            <span style="mso-bidi-font-size: 12.0pt">
+            Aqui vamos configurar a marca de centro de círculos ou arcos para
+            ser linha de centro tal e como aparece na <a href="#centro">figura</a>
+            acima.</o:p>
+            </span></font></li>
+        </ul>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Não
+        precisamos configurar as unidades porque vamos trabalhar no sistema métrico
+        e as dimensões default estão em decimal, mas no caso de mudar para
+        polegadas pode configurar o estilo de unidades para que as unidades primárias
+        fiquem no sistema de medida inglês (arquitetura). Portanto dê um
+        clique e selecione Primary Units, e escolha o estilo de unidades com o
+        qual você quer trabalhar.<o:p>
+        </o:p>
+        </font>
+        </span>
+        </p>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Para
+        configurar o texto e sua posição segundo os métodos de cotagem dê um clique na divisória TEXT:<o:p>
+        (na figura clique no número 5)</font></span>
+        </p>
+        <p align="center"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">
+        <a name="metodo1"></a><map name="FPMap1">
+        <area href="#metodo2" shape="rect" coords="364, 267, 424, 290">
+        <area href="#conf_texto" shape="rect" coords="191, 64, 216, 79"></map>
+        <img border="0" src="dimens5.jpg" usemap="#FPMap1" width="530" height="450"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1029"
+  DrawAspect="Content" ObjectID="_1093872803">
+ </o:OLEObject>
+</xml><![endif]-->
+        <o:p>
+        &nbsp;</font></span></p>
+        <p align="center"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">
+        <img border="0" src="dimens5a.jpg" width="242" height="162"><a name="metodo2"></a></o:p></font></span></p>
+        <ul>
+          <li><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><font color="#0000FF">5.
+            </font>Selecione Text Style, dê um clique no botão da direita, vai
+        abrir a caixa de dialogo de texto que você conhece do capítulo de
+        gerenciamento, aqui você vai criar um novo estilo de texto com o nome
+        trabalho prático, pode escolher a fonte que desejar, neste caso vou
+        utilizar RomanC.<o:p>&nbsp;</font></span>
+            <ul>
+              <li><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><font color="#0000FF">a)</font>
+                cria um novo estilo de texto</font></span></li>
+              <li><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><font color="#0000FF">b)</font>
+                escolher fonte para o&nbsp; texto</font></span></li>
+              <li><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><font color="#0000FF">c)</font>
+                configura a altura do texto&nbsp;</font></span></li>
+              <li><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><font color="#0000FF">d)</font>
+                aplica configuração</font></span></li>
+              <li><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><font color="#0000FF">e)</font>
+                fecha caixa de diálogo e volta a janela de Dimension Style</font></span></li>
+            </ul>
+          </li>
+        </ul>
+        <p align="justify">&nbsp;</p>
+        <p class="MsoBodyTextIndent2" align="center"><font face="Arial" size="2">
+        <img border="0" src="dimens5b.jpg" width="520" height="329"><a name="conf_texto"></a></font></p>
+        <blockquote>
+          <ul>
+            <li>
+              <p align="justify"><font face="Arial" size="2">Na janela de
+              Dimension Style, em Text Style procure o novo estilo de texto
+              criado e coloque como ativo&nbsp;</font></li>
+            <li>
+              <p align="justify"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">Se você criou uma camada chamada texto com uma cor
+        determinada, pode agora colocar em Text color --&gt;<b>ByLayer</b><o:p>
+        </o:p>
+              </span></font></li>
+            <li>
+              <p align="justify"><font face="Arial" size="2">Em
+              Text
+              Height ( altura do texto) pode ser configurado para a escala de
+        plotagem, se você quer um tamanho de texto de 2,5 mm na plotagem e este
+        vai ser plotado numa escala reduzida 1:2, então, deve ir para a divisória
+        Fit e na parte inferior direta (abaixo do desenho) aparece Scale for
+        Dimension Feature, selecione Use Overall scale of: deve digitar o valor
+        da escala a ser utilizada, neste caso 2, por ser reduzida, em caso de
+        ser uma escala aumentada 2:1 deve digitar o valor 0.5.<o:p>
+              <span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; font-family: Arial">
+        </o:p>
+              </span></font></li>
+          </ul>
+        </blockquote>
+        <ul>
+          <li>
+            <p align="justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">&nbsp;<font color="#0000FF">6.
+            </font>Text Placement (posição do texto) aqui você pode
+        escolher se quer fazer a cotagem com o <b><a href="#metodo1">método 1</a></b>: nesse caso deve
+        escolher&nbsp; na posição vertical: <b>Above</b> , e na posição
+        horizontal <b>centrada; </b>utilizando o<b>  <a href="#metodo2"> método
+            2</a>: </b>deve escolher
+        <b>centrada</b> em ambas posições.</font></span></li>
+        </ul>
+        <p class="MsoNormal" style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Divisória
+        Fit:<o:p>
+        </o:p>
+        </font></span></p>
+        <p class="MsoNormal" align="center"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">&nbsp;<o:p>
+        <img border="0" src="Fit_dimension1.gif" width="532" height="452"></o:p>
+        </font></span></p>
+        <p><font face="Arial" size="2">Todos as configurações que aparecem na
+        caixa de diálogo podem ficar como padrão, somente vamos explicar a que
+        aparece marcada em vermelho <font color="#FF0000">Scale for Dimension
+        Feature: </font>aparecem duas configurações dependendo se a plotagem
+        será em Model Space deve considerar a escala de plotagem, se a mesma
+        deve ser reduzida exemplo em 1:5 deve escolher o valor de 5 na caixa que
+        aparece ao lado se a plotagem será em escala ampliada exemplo 2:1 deve
+        colocar 0.5; se pretende configurar a impressão&nbsp; em Paper Space
+        somente necessita selecionar a opção e no momento de colocar seu
+        desenho em paper space dê um clique em Dimension Update para atualizar
+        o tamanho do texto.&nbsp;</font></p>
+        <p class="MsoBodyTextIndent2"><a name="&nbsp; Barra de Dimension"><span style="mso-bidi-font-size: 12.0pt"><font color="#0000FF" size="2" face="Arial">&nbsp;<o:p>
+        Barra de Dimension</font></span></a>
+        </p>
+        <p align="center"><font face="Arial" size="2"><font color="#FF0000">Dê um
+        clique em cada </font><font face="Arial" size="1" color="#008000"><b> nome</b></font><font face="Arial" size="1" color="#FF0000"> de comando que aparece na barra Dimension para ir ao
+        link indicado</font></font></p>
+        <div align="center">
+          <table border="0" cellpadding="0" cellspacing="0" width="482">
+            <tr>
+              <td><font face="Arial" size="2"><map name="FPMap2">
+                <area href="#linear" shape="rect" coords="9, 96, 50, 111">
+                <area href="#aligned" shape="rect" coords="15, 16, 62, 30">
+                <area href="#Radius" shape="rect" coords="77, 96, 120, 109">
+                <area href="#ordinate" shape="rect" coords="71, 14, 128, 31">
+                <area href="#angula" shape="rect" coords="135, 98, 186, 113">
+                <area href="#Diameter" shape="rect" coords="131, 16, 187, 32">
+                <area href="#baseline" shape="rect" coords="191, 101, 245, 114">
+                <area href="#Qdim" shape="rect" coords="191, 15, 227, 29">
+                <area href="#Quick leader" shape="rect" coords="249, 102, 319, 114">
+                <area href="#continuos" shape="rect" coords="237, 19, 297, 31">
+                <area href="#Center mark" shape="rect" coords="302, 20, 370, 32">
+                <area href="#Edits" shape="rect" coords="326, 106, 395, 137">
+                <area href="#Text Edit:" shape="rect" coords="390, 11, 454, 36">
+                <area href="#Dimension Style" shape="rect" coords="543, 102, 605, 135"></map>
+              <img border="0" src="barra_flutuante_dim1.jpg" usemap="#FPMap2" width="620" height="146"><a name="barra"></a></font></td>
+            </tr>
+          </table>
+        </div>
+  </center>
+      <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dimensão
+      <a name="linear">linear</a>:<img border="0" src="linear.gif" width="28" height="26"></font></span></p>
+      <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dimensões
+      lineares criam medidas de distância entre dois pontos no XY aplane do
+      sistema de coordenada de usuário atual (UCS). Você pode especificar os
+      pontos ou pode selecionar um objeto. Há três tipos de dimensão
+      linear:&nbsp;</font></span></p>
+      <ul>
+        <li><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Horizontal:
+          Mede uma distância entre dois pontos paralelo para o eixo de X.&nbsp;</font></span></li>
+        <li>
+          <p class="MsoNormal"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Vertical:
+          Mede uma distância entre dois pontos paralelo para o eixo de Y. <o:p>
+          </o:p>
+          </font>
+          </span></li>
+        <li>
+          <p class="MsoNormal"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Girado:
+          Mede uma distância entre dois pontos a uma orientação especificada
+          no UCS atual. <o:p>
+          </o:p>
+          </font>
+          </span></li>
+      </ul>
+      <p class="MsoNormal"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">&nbsp;Embora
+      AutoCAD mede todas as três dimensões dos mesmos pontos, as medidas
+      diferem porque as distâncias lineares não são o mesmo. Quando
+      você começar uma dimensão linear, AutoCAD cria uma medida horizontal ou
+      vertical automaticamente baseado em onde você coloca a dimensão. Você
+      também pode especificar explicitamente o tipo de dimensão linear. <o:p>
+      </o:p>
+      </span></font></p>
+      <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dimensão
+      alinhada (<a name="aligned">aligned</a>):<img border="0" src="alinhada.gif" width="26" height="26"></font></span></p>
+      <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">Cria
+      uma dimensão alinhada onde pede especificar a
+      origem de linha de extensão (pontos de precisão Endpoint) ou
+      &lt;selecione objeto&gt;:&nbsp; ou dê um clique em ENTER para
+      AutoCAD&nbsp; selecionar um objeto para dimensão<o:p>
+      </o:p>
+      </span></font></p>
+      <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dimensão
+      por coordenadas (<a name="ordinate">ordinate</a>):<img border="0" src="ordinate.gif" width="33" height="26"></font></span></p>
+      <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">Dimensões
+      de ordenada exibem o X ou ordenada de Y de uma característica junto com
+      uma linha guia simples. Estas dimensões também são conhecidas como
+      cotagem aditiva.<o:p>
+      </o:p>
+      </span></font></p>
+      <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">Dimensão
+      de raio (<a name="Radius">Radius</a>):</span> 
+      <img border="0" src="raio.gif" width="26" height="26"></font></p>
+      <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Cria
+      dimensões radiais para círculos e arcos. <span style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA">Uma
+      dimensão radial consiste em uma linha de dimensão de raio com uma ponta
+      da flecha ao arco ou fim de círculo.</span></font></span></p>
+      <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dimensão
+      de círculo (<a name="Diameter">Diameter</a>):<img border="0" src="diametro.gif" width="27" height="27"></font></span></p>
+      <p align="left"><span style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA"><font face="Arial" size="2">Cria dimensões de diâmetro para círculos e arcos.
+      Este comando puxa&nbsp; tipos diferentes de dimensões de diâmetro que
+      dependem do tamanho do círculo ou forma arco. O AutoCAD mede o diâmetro
+      e exibe o texto com um símbolo de diâmetro (Ø) em frente a isto.</font></span></p>
+      <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dimensão
+      <a name="angula">angula</a>r:<img border="0" src="angular.gif" width="26" height="25"></font></span></p>
+      <p><font face="Arial" size="2">Para criar uma dimensão angular:&nbsp;</font></p>
+      <ul>
+        <li><font face="Arial" size="2">No menu Dimensão, escolha Angular;</font></li>
+        <li><font face="Arial" size="2">Especificar o objeto que você quer
+          dimensionar, exemplo:</font>
+          <p><font face="Arial" size="2">- Selecione um círculo, e especifique
+          um segundo ponto no círculo.&nbsp;</font></p>
+          <p><font face="Arial" size="2">- Selecione um arco. <o:p>
+          </o:p>
+          </font></li>
+      </ul>
+      <blockquote>
+        <p><font face="Arial" size="2">- Selecione uma linha, e especifique a
+        segunda linha. </o:p> Tecle Enter,</font></p>
+      </blockquote>
+      <p><font face="Arial" size="2">AutoCAD exibe o menor ângulo ou o ângulo
+      principal, dependendo em onde você coloca a dimensão. Pode-se
+      especificar um ou o outro, e para isto mova o cursor dentro (secundário)
+      ou fora (ângulo principal) entre as linhas de extensão. <span style="font-size:8.0pt;mso-bidi-font-size:12.0pt"><o:p>
+      </o:p>
+      </span></font></p>
+      <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dimensionamento
+      rápido (<a name="Qdim">Qdim</a>):<img border="0" src="rapida.gif" width="28" height="27"></font></span></p>
+      <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Use
+      QDIM para criar umas séries de dimensões rápidas. O comando é
+      particularmente útil para criar umas séries de linha base ou dimensões
+      continuas, ou para dimensionar uma séries de círculos e arcos. <o:p>
+      </o:p>
+      </font>
+      </span></p>
+      <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Especifique
+      posição de linha de dimensão, ou [Continuous/Staggered/Baseline/Ordinate/Radius/Diameter/datumPoint/Edit]
+      <o:p>
+      </o:p>
+      </font>
+      </span></p>
+      <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">&lt;
+      atual &gt;: Entre em uma opção ou tecle ENTER <o:p>
+      </o:p>
+      </font>
+      </span></p>
+      <ul>
+        <li><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">&nbsp;</span><span lang="EN-US" style="mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US">Continuous:
+      Creates a series of continued dimensions.<o:p>
+      &nbsp;</span></font></li>
+        <li><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><span lang="EN-US">&nbsp;</span>Staggered:
+          <span style="font-size:8.0pt;mso-bidi-font-size:12.0pt;
+font-family:Arial;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR;
+mso-bidi-language:AR-SA">Cria uma série de dimensões paralelas centradas.</span><o:p></o:p>
+          </font></span></li>
+        <li><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">&nbsp;Baseline:
+          Cria
+      uma série de dimensões de linha base. &nbsp;<o:p>
+      </o:p>
+          </font></span></li>
+        <li><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US">Ordinate:</span><span style="mso-bidi-font-size: 12.0pt">Cria
+      uma série de dimensões de ordenada. <o:p>
+      </o:p>
+      </span></font></li>
+        <li><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">&nbsp;</span><span lang="EN-US" style="mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US">Radius:
+      </span><span style="mso-bidi-font-size: 12.0pt">Cria
+      uma série de dimensões de rádio. &nbsp;<o:p>
+      </o:p>
+      </span></font></li>
+        <li><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US">Diameter:
+      </span><span style="mso-bidi-font-size: 12.0pt">Cria
+      uma série de dimensões de diâmetro. <o:p>
+      </o:p>
+      </span></font></li>
+      </ul>
+      <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dimensão
+      paralela (<a name="baseline">baseline</a>):<img border="0" src="paralela.gif" width="28" height="26"></font></span></p>
+      <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">O
+      dimensionamento de linha base também é conhecido como dimensionamento
+      paralelo. <o:p>
+      </o:p>
+      Cria uma série de dimensões, considerando uma&nbsp;&nbsp;
+      dimensão prévia que serve de linha de base.&nbsp;</font></span></p>
+      <p align="left"><font face="Arial" size="2">Dimensão continua (<a name="continuos">continuos</a>)<img border="0" src="continua.gif" width="27" height="27"></font></p>
+      <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">Cria
+      dimensões contínuas a partir da
+      segunda linha de extensão de uma dimensão prévia ou uma dimensão
+      selecionada,&nbsp; dependendo do tipo de dimensão que se toma como base
+      este dimensionamento pode ser linear, angular, ou por coordenada.<o:p>
+      </o:p>
+      </span></font></p>
+      <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">
+        </o:p>Inclusão de uma nota
+            com seta (<a name="Quick leader">Quick leader</a>):<img border="0" src="leader.gif" width="26" height="27"></span></font></p>
+      <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Cria
+      anotações em seu desenho.</font></span></p>
+      <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Marcando
+      centro (<a name="Center mark">Center mark</a>):<img border="0" src="marcar_centro.gif" width="29" height="26"></font></span></p>
+      <p align="left"><span style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA"><font face="Arial" size="2">Cria a marca de centro ou uma linha de centro em círculos
+      e arcos.</font></span></p>
+      <p align="left"><font face="Arial" size="2"><a name="Editando"><span style="mso-bidi-font-size: 12.0pt"><font color="#0000FF">Editando
+      </font>
+      </span>
+      </a> <span style="mso-bidi-font-size: 12.0pt"><font color="#0000FF"> dimensões:<o:p>
+      </font>
+            </o:p>
+      </span>
+      </font>
+      <p align="left"><span lang="EN-US" style="mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US"><font face="Arial" size="2"><a name="Edits">Edits</a>
+      dimensions: <img border="0" src="Dim_edit.jpg" width="24" height="24"><o:p>
+      </o:p>
+      </font>
+      </span></p>
+      <p align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US">&nbsp;As
+      opções Home, New e Rotate </span><span style="mso-bidi-font-size: 12.0pt">afetam
+      a cota da dimensão. A opção Oblíqua afeta as linhas de extensão.
+      DIMEDIT pode operar de cada vez em mais de um objeto de dimensão. <o:p>
+      </o:p>
+ </span></font></p>
+      <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dimension
+      <a name="Text Edit:">Text Edit:</a> 
+      <img border="0" src="Dim_text_edit.jpg" width="26" height="24"></font></span></p>
+      <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Movimenta
+      e faz a rotação das cotas nas dimensões selecionadas.</font></span></p>
+      <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Dimension
+      Update: <img border="0" src="Dim_update1.jpg" width="27" height="26"></font></span></p>
+      <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Atualiza
+      o estilo de uma dimensão segundo um estilo previamente configurado.</font></span></p>
+      <p><font face="Arial" size="2"><a name="Dimension Style">Dimension Style</a>
+      <img border="0" src="Dim_update.jpg" width="25" height="26"><br>
+      <span style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA">Um estilo de dimensão define o comportamento e aparência
+      de suas dimensões. Este comando</span> cria e modifica um estilo de
+      dimensão.</font></td>
+    </tr>
+  </table>
+</div>
+&nbsp;<!--msnavigation--></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<p>&nbsp;</p>
+<p align="center">&nbsp;</p>
+
+</td></tr><!--msnavigation--></table></body></html>

@@ -1,0 +1,596 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="pt-br">
+<meta name="eneida gonzalez valdes curso autocad 2000" content="eneida, gonzález, valdés, professora, desenho, técnico, expressão, gráfica, representação, autocad, 2000, apostilas, exercícios, trabalhos, práticos, geometria, descritiva, engenharia, elétrica, telecomunicações, engenheira, mecânica, iesb, unb, dibujo tecnico">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>modificadores</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+<meta name="Microsoft Border" content="tb, default">
+</head>
+
+<body onload="dynAnimation()"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<h1 align="center">
+&nbsp;</h1>
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><!--msnavigation--><td valign="top">
+
+<h1 align="center" style="margin-top: 0; margin-bottom: 0"><a name="acima"></a></h1>
+
+<h1 align="center" style="margin-top: 0; margin-bottom: 0"><font face="Arial" size="2"><font color="#000000">
+<a onmouseover="document['fpAnimswapImgFP17'].imgRolln=document['fpAnimswapImgFP17'].src;document['fpAnimswapImgFP17'].src=document['fpAnimswapImgFP17'].lowsrc;" onmouseout="document['fpAnimswapImgFP17'].src=document['fpAnimswapImgFP17'].imgRolln" href="criacao_entidade.htm">
+<img border="0" src="../images/botones_fondo/p_esquerda.gif" id="fpAnimswapImgFP17" name="fpAnimswapImgFP17" dynamicanimation="fpAnimswapImgFP17" lowsrc="../images/botones_fondo/p_esquerda1.gif" alt="Comandos para desenhar no AutoCAD " width="13" height="16"></a></font><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: normal"><font color="#0066FF" face="Arial Black" size="5">Edição e Modificação de
+        Desenho</font></span><font color="#000000"><a href="dimensionamento.htm" onmouseover="document['fpAnimswapImgFP16'].imgRolln=document['fpAnimswapImgFP16'].src;document['fpAnimswapImgFP16'].src=document['fpAnimswapImgFP16'].lowsrc;" onmouseout="document['fpAnimswapImgFP16'].src=document['fpAnimswapImgFP16'].imgRolln"><img border="0" src="../images/botones_fondo/p_direita.gif" alt="Comandos para cotagem dos desenhos" id="fpAnimswapImgFP16" name="fpAnimswapImgFP16" dynamicanimation="fpAnimswapImgFP16" lowsrc="../images/botones_fondo/p_direita1.gif" width="13" height="16"></a></font></font></h1>
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="690">
+    <tr>
+      <td><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+mso-bidi-font-weight:normal"><o:p>
+        </o:p>
+        </span>
+        <p><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">&nbsp;&nbsp;&nbsp;&nbsp;
+        O
+        primeiro conceito que deve ficar bem claro é que para alterar qualquer
+        desenho, temos que especificar a ação e o objeto, ou objetos que
+        sofrerão a ação. Exemplo: copiar um círculo, copiar é a ação e o
+        círculo é o objeto que será copiado. Portanto, toda ação implica
+        numa seleção de objeto. Esta seleção pode ser feita de diversas
+        formas: selecionando primeiro o objeto e depois dar o comando de ação
+        ou dar o comando de ação e depois selecionar o objeto. Sempre que você
+        executar um comando de edição, receberá a seguinte mensagem na linha
+        de comando: <b><i>Select objects: I found</i></b> </span></font></p>
+        <p><font face="Arial" size="2"><span style="mso-bidi-font-size:12.0pt">Isto
+        quer dizer que o AutoCAD encontrou um objeto, o selecionou e pediu para
+        selecionar outros objetos, se não quer selecionar mais nenhum objeto
+        tecle Enter para encerrar a seleção e executar o comando dado. (Também
+        são válidos como Enter a barra de espaço e o botão direito do
+        mouse).<span style="mso-spacerun: yes">&nbsp; </span></span><span style="mso-bidi-font-size: 12.0pt">&nbsp;<o:p>
+        </o:p>
+        </span></font></p>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font size="2" face="Arial">A
+        barra de ferramenta MODIFY é acionada na barra de menu principal, ou na
+        barra de menu flutuante MODIFY, ou no menu lateral.<o:p>
+        &nbsp;</font>
+        </span></p>
+        <p align="center"><font face="Arial" size="2"><font color="#FF0000"><span style="mso-bidi-font-size: 10.0pt; font-weight: normal">Dê
+      um clique em cada </span><span style="mso-bidi-font-size: 10.0pt"><b> nome</b> </span><span style="mso-bidi-font-size: 10.0pt; font-weight: normal"> de comando da barra de ferramenta flutuante Modify</span></font><span style="mso-bidi-font-size: 12.0pt"></o:p>
+        </span></font></p>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">
+        <map name="FPMap0">
+        <area href="#erase" shape="rect" coords="12, 115, 49, 132">
+        <area href="#copy" shape="rect" coords="24, 45, 56, 70">
+        <area href="#mirror" shape="rect" coords="116, 25, 153, 40">
+        <area href="#array" shape="rect" coords="180, 27, 214, 43">
+        <area href="#rotate" shape="rect" coords="232, 31, 277, 49">
+        <area href="#stretch" shape="rect" coords="299, 26, 344, 45">
+        <area href="#trim" shape="rect" coords="363, 25, 393, 45">
+        <area href="#break" shape="rect" coords="410, 29, 450, 46">
+        <area href="#fillet" shape="rect" coords="465, 25, 496, 47">
+        <area href="#offset" shape="rect" coords="127, 139, 167, 159">
+        <area href="#move" shape="rect" coords="201, 144, 238, 161">
+        <area href="#escala" shape="rect" coords="275, 140, 315, 157">
+        <area href="#lengthen" shape="rect" coords="336, 142, 401, 162">
+        <area href="#extend" shape="rect" coords="407, 143, 451, 161">
+        <area href="#chanfro" shape="rect" coords="471, 144, 523, 165">
+        <area href="#explode" shape="rect" coords="561, 145, 613, 165"></map>
+        <img src="modifi5.jpg" v:shapes="_x0000_i1025" usemap="#FPMap0" width="636" height="190"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1093017425">
+ </o:OLEObject>
+</xml><![endif]-->
+        &nbsp;</font>
+        </span></p>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt">
+        <font face="Arial" size="2">
+        <span style="mso-bidi-font-weight: bold; mso-bidi-font-size: 12.0pt"><b>Erase:</b></span> <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="center" style="text-align:center"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">
+        <a name="erase"></a><img src="modifi6.jpg" v:shapes="_x0000_i1026" width="225" height="124"><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="text-align:justify;text-indent:1.0cm"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Elimina
+        os objetos criados. Os mesmos podem ser eliminados de forma individual,
+        fazendo a seleção e depois dar <span style="mso-bidi-font-weight:bold">enter</span>
+        com o botão direito do mouse ou com o teclado, ou também pode ser
+        feita uma janela nos objetos que se quer selecionar e dar <span style="mso-bidi-font-weight:
+bold">enter</span>. Em caso de ter selecionado um objeto por engano, pode
+        segurar <span style="mso-bidi-font-weight:bold">Shift</span> e dar um
+        clique no objeto. O AutoCAD permite a eliminação de objetos com a
+        tecla <span style="mso-bidi-font-weight:bold">DEL. </span>Os objetos
+        apagados podem ser recuperados pelo comando <span style="mso-bidi-font-weight:bold">UNDO</span>
+        ou <span style="mso-bidi-font-weight:bold">Oops, </span>sendo que o último
+        recupera apenas a última seleção removida.<o:p>
+        &nbsp;<o:p>
+        &nbsp;</font>
+        </span></p>
+  </center>
+        <p style="text-indent: 1.0cm" align="right"><span style="mso-bidi-font-size: 12.0pt">
+        <font face="Arial" size="2">
+        </o:p><a href="#inicio">inicio</a>
+        </font>
+        </span></p>
+  <center>
+        <p style="text-align:justify"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><b>Copy:</b></span><span style="mso-bidi-font-size: 12.0pt">
+        <o:p>
+        </o:p>
+        </span></font></p>
+        <p align="center" style="text-align:center"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">
+        <a name="copy"></a><img src="modifi7.jpg" v:shapes="_x0000_i1027" width="201" height="85"><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="text-align:justify;text-indent:1.0cm"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt">Executa
+        a duplicação simples ou em seqüência de um ou mais objetos de
+        desenho. Primeiro seleciona-se o objeto a copiar, em seguida define-se o
+        ponto de referência (ponto base) e por último, o deslocamento, que
+        pode ser informado por coordenadas pelo teclado, aleatoriamente na tela
+        ou com o uso da ferramenta de precisão <span style="mso-bidi-font-weight:bold">Osnap.
+        </span>Em caso de necessitar múltiplas copias, deve digitar M</span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-bidi-font-size: 12.0pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial">à</span><span style="mso-bidi-font-size: 12.0pt">enter
+        e depois definir o ponto de referência (ponto base) e por último, o
+        deslocamento.<o:p>
+        &nbsp;
+        </span></font></p>
+  </center>
+        <p style="text-indent: 1.0cm" align="right"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><a href="#inicio">inicio</a></o:p>
+        </font>
+        </span></p>
+  <center>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2"><b><a name="Mirror:">Mirror</a></b><a name="Mirror:">:</a>
+        <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="center" style="text-align:center"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2"><a name="mirror"></a>
+        <img src="modifi8.jpg" v:shapes="_x0000_i1028" width="204" height="119"><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Este
+        comando produz um espelhamento dos objetos selecionados. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <ul>
+          <li>
+            <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Yes
+        (Y): define que os objetos selecionados para o espelhamento serão
+        apagados.<o:p>
+        </o:p>
+            </font>
+        </span></li>
+          <li>
+            <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">No(N):
+        define que os objetos selecionados para o espelhamento não serão
+        apagados.<o:p>
+        </o:p>
+            </font>
+        </span></li>
+        </ul>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Utilize
+        a variável (digitar) MIRRTEXT para controlar o espelhamento de detalhes
+        que contenham texto. Se atribuirmos o valor &lt;1&gt; (default), os
+        textos são invertidos após o espelhamento. Digitando um valor 0 (zero)
+        não inverte os textos. Em caso de haver textos, esta opção deve ser
+        configurada antes de acionar o comando.<o:p>
+        &nbsp;</font>
+        </span></p>
+  </center>
+        <p align="right"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><a href="#inicio">inicio</a></o:p>
+        </font>
+        </span></p>
+  <center>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><b><font face="Arial" size="2"><a name="Offset:">Offset:</a>
+        <o:p>
+        </o:p>
+        </font>
+        </b>
+        </span></p>
+        <p align="center" style="text-align:center"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2"><a name="offset"></a>
+        <img src="modifi9.jpg" v:shapes="_x0000_i1029" width="208" height="112"><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Permite
+        a duplicação com distância digitada via teclado, ou utilizando
+        ferramentas Osnap. Este comando pode ser usado em circunferências,
+        linhas arcos, polilinhas, elipses e outros comandos de desenho. Quando
+        usado em segmentos de retas, duplica os mesmos paralelamente. Quando em
+        figuras curvas duplica-os concentricamente. <o:p>
+        &nbsp;</font>
+        </span></p>
+  </center>
+        <p align="right"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><a href="#inicio">inicio</a></o:p>
+        </font>
+        </span></p>
+  <center>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2"><b><a name="Array:">Array:<o:p>
+        </a></b>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="center" style="text-align:center"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2"><a name="array"></a>
+        <img src="modifi10.jpg" v:shapes="_x0000_i1030" width="196" height="108"><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Este
+        comando permite duplicar objetos regularmente em formato <span style="mso-bidi-font-weight:bold">retangular</span>
+        ou <span style="mso-bidi-font-weight:bold">circular</span>, conforme a
+        opção escolhida.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <ul>
+          <li>
+            <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><span style="mso-bidi-font-weight:bold">Retangular: (digitar R)</span>
+        Distribui um elemento em M linhas e N colunas, a uma distância X entre
+        as colunas e a uma distância Y entre as linhas. Após a seleção de
+        objetos, a opção para a escolha da forma de duplicação é
+        habilitada.<o:p>
+        </o:p>
+            </font>
+        </span></li>
+          <li>
+            <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><span style="mso-bidi-font-weight:bold">Polar:</span> <span style="mso-bidi-font-weight:
+bold">(digitar P)</span> copia um ou mais objetos N vezes em torno de um ponto
+        central, preenchendo um ângulo a ser informado pelo usuário. Se o ângulo
+        de preenchimento for positivo, os objetos serão copiados no sentido
+        anti-horário, caso contrario são copiados no sentido horário. <o:p>
+        </o:p>
+            </font>
+        </span></li>
+        </ul>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Existe
+        a opção circular, acionada pela letra C, um pouco diferente da polar,
+        copia objetos circularmente, solicitando o número de itens e o ângulo
+        entre eles, depois de informado o ângulo de rotação dos objetos,
+        pode-se definir se os objetos sofrerão ou não, rotação em torno de
+        seu próprio eixo.<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;
+        </span><o:p>
+        &nbsp;</font>
+        </span></p>
+  </center>
+        <p align="right"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><a href="#inicio">inicio</a></o:p>
+        </font>
+        </span></p>
+  <center>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2"><b><a name="Move:">Move:</a></b><a name="Move:"><o:p>
+        </a>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="center" style="text-align:center"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2">
+        <a name="move"></a><img src="modifi11.jpg" v:shapes="_x0000_i1031" width="203" height="103"><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><span style="mso-spacerun:
+yes">&nbsp;</span>Este comando possibilita o deslocamento de um ou mais objetos
+        dentro de um desenho. Esse deslocamento pode ser controlado pelo
+        movimento do mouse, por coordenadas ou pelo uso de ferramentas de precisão
+        Osnap. Sempre que usarmos o Osnap será necessário informar o ponto de
+        base de forma totalmente precisa. No caso de usar coordenadas, pode-se
+        escolher qualquer ponto da tela, como base (Base Point) do deslocamento.<o:p>
+        &nbsp;</font>
+        </span></p>
+  </center>
+        <p align="right"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><a href="#inicio">inicio</a></o:p>
+        </font>
+        </span></p>
+  <center>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2"><b><a name="Rotate:">Rotate:</a></b>
+        <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="center" style="text-align:center"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2">
+        <a name="rotate"></a><img src="modifi12.jpg" v:shapes="_x0000_i1032" width="207" height="109"><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Este
+        comando executa uma simples rotação de objeto selecionado em torno de
+        um ponto base. Depois de selecionado o ponto base, a opção para
+        especificar de uma referencia torna-se disponível. Com a opção
+        Reference, podemos informar o ângulo final desejado para uma
+        determinada peça, ao invés do ângulo a rotacionar.<span style="mso-spacerun: yes">&nbsp;
+        </span><o:p>
+        &nbsp;</font>
+        </span></p>
+  </center>
+        <p align="right"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><a href="#inicio">inicio</a></o:p>
+        </font>
+        </span></p>
+  <center>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2"><b><a name="Scale:">Scale:</a></b>
+        <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="center" style="text-align:center"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2">
+        <a name="escala"></a><img src="modifi13.jpg" v:shapes="_x0000_i1033" width="199" height="111"><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Aumenta
+        ou diminui os objetos selecionados de igual forma nas direções dos
+        eixos X, Y e Z.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+  </center>
+        <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Quando
+        utilizamos um fator de escala, mudamos todas as dimensões do objeto
+        selecionado. Um fator de escala maior que 1, aumenta o objeto. Um fator
+        de escala menor que 1, encurta o objeto.<o:p>
+        &nbsp;</font>
+        </span></p>
+        <p align="right"><span style="mso-bidi-font-size: 12.0pt">
+        <font face="Arial" size="2">
+        </o:p><a href="#inicio">inicio</a></font></span></p>
+  <center>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2"><b><a name="Stretch:">Stretch:</a></b>
+        <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="center" style="text-align:center"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2">
+        <a name="stretch"></a><img src="modifi14.jpg" v:shapes="_x0000_i1034" width="208" height="104"><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Este
+        comando deforma as entidades pelos pontos finais ou vértices
+        selecionados. Comando utilizado nos casos de alterações parciais do
+        dimensionamento de desenhos. Dependendo da forma de utilização, tem o
+        mesmo efeito do comando Move. <span style="mso-bidi-font-weight:
+bold"><o:p>
+        &nbsp;
+        </span></font></span></p>
+  </center>
+        <p align="right"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt"><a href="#inicio">inicio</a></span><span style="mso-bidi-font-weight:
+bold"></o:p>
+        </span></font></p>
+  <center>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2"><b><a name="Lengthen:">Lengthen:</a></b>
+        <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="center" style="text-align:center"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2"><a name="lengthen"></a>
+        <img src="modifi15.jpg" v:shapes="_x0000_i1035" width="223" height="113"><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Este
+        comando possibilita uma variação no comprimento de objetos abertos
+        como linhas, polilinhas, elipse e arcos.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+  <ul>
+    <li>
+      <p style="margin-left:53.4pt;text-align:justify;text-indent:
+-18.0pt;mso-list:l0 level1 lfo1;tab-stops:list 53.4pt"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold">Delta:
+      </span><span style="mso-bidi-font-size: 12.0pt">permite especificar um
+        incremento linear ou angular para retas e arcos.<o:p>
+      &nbsp;
+        </span></font></li>
+    <li>
+      <p style="margin-left:53.4pt;text-align:justify;text-indent:
+-18.0pt;mso-list:l0 level1 lfo1;tab-stops:list 53.4pt"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold">Percent</span><span style="mso-bidi-font-size: 12.0pt"><span style="mso-bidi-font-weight: bold">:</span>
+        Altera o comprimento de retas e arcos a partir de um percentual de seus
+        comprimentos.<o:p>
+        </o:p>
+        </span></font></li>
+    <li>
+      <p style="margin-left:53.4pt;text-align:justify;text-indent:
+-18.0pt;mso-list:l0 level1 lfo1;tab-stops:list 53.4pt"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold">Total</span><span style="mso-bidi-font-size: 12.0pt"><span style="mso-bidi-font-weight: bold">:</span>
+        Altera o comprimento de uma entidade, sendo solicitado o dimensionamento
+        final.<o:p>
+        </o:p>
+        </span></font></li>
+    <li>
+      <p style="margin-left:53.4pt;text-align:justify;text-indent:
+-18.0pt;mso-list:l0 level1 lfo1;tab-stops:list 53.4pt"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold">Dynamic:
+      </span><span style="mso-bidi-font-size: 12.0pt">Permite uma alteração
+        visual do comprimento controlada pelo mouse.<o:p>
+      &nbsp;
+        </span></font></li>
+  </ul>
+  </center>
+        <p align="right"><span style="mso-bidi-font-size: 12.0pt"><a href="#inicio"><font face="Arial" size="2">inicio</font></a>
+        </span></p>
+  <center>
+        <p style="text-align:justify"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><b><a name="Trim:">Trim:</a></b></span><span style="mso-bidi-font-size: 12.0pt">
+        <o:p>
+        </o:p>
+        </span></font></p>
+        <p align="center" style="text-align:center"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><a name="trim"></a>
+        <img src="modifi16.jpg" v:shapes="_x0000_i1036" width="191" height="109"><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Este
+        comando remove partes de objetos (linhas, circunferências, arcos,
+        polylines, etc) quebrados no ponto de intersecção, com outros objetos
+        previamente selecionados. Selecionamos inicialmente os objetos cortantes
+        e a serem cortados e confirmamos a seleção com <span style="mso-bidi-font-weight:bold">enter</span>,
+        em seguida, selecionamos os segmentos dos objetos que deveram ser
+        cortados.<span style="mso-spacerun: yes">&nbsp;&nbsp; </span>
+        </font>
+        </span></p>
+  </center>
+        <p align="right"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><a href="#inicio">inicio</a><span style="mso-spacerun: yes"> </span><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold"><b><a name="Extend:">Extend:</a></b></span><span style="mso-bidi-font-size: 12.0pt; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA">
+        <o:p>
+        </o:p>
+        </span></font></p>
+  <center>
+        <p align="center" style="margin:0cm;margin-bottom:.0001pt;
+text-align:center"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">
+        <a name="extend"></a><img src="modifi17.jpg" v:shapes="_x0000_i1037" width="199" height="107"></span><span style="mso-bidi-font-size: 12.0pt; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA"><o:p>
+        </o:p>
+        </span></font></p>
+  </center>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="left"><span style="mso-bidi-font-size: 12.0pt; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA"><font face="Arial" size="2">Este
+        comando prolonga um objeto até um limite definido por outro objeto.<o:p>
+        Primeiro passo é selecionar o objeto limite, confirma-se a seleção
+        com enter (também pode ser com o botão direito do mouse ou com a barra
+        de espaço) e posteriormente dê um clique no objeto a ser extendido.</font>
+        </span></p>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="right"><font face="Arial" size="2"><a href="#inicio"><span style="mso-bidi-font-size: 12.0pt">i</span></a><span style="mso-bidi-font-size: 12.0pt"><a href="#inicio">nicio</a>
+        </span><span style="mso-bidi-font-size: 12.0pt; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA"> </o:p>
+        </span></font></p>
+  <center>
+        <p style="margin:0cm;margin-bottom:.0001pt">&nbsp;</p>
+  </center>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="left"><span style="mso-bidi-font-size: 12.0pt; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold"><font face="Arial" size="2"><b><a name="Break:">Break:</a></b>
+        <o:p>
+        </o:p>
+        </font>
+        </span></p>
+  <center>
+        <p align="center" style="margin:0cm;margin-bottom:.0001pt;
+text-align:center"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold">
+        <a name="break"></a><img src="modifi18.jpg" v:shapes="_x0000_i1038" width="196" height="111"></span><span style="mso-bidi-font-size: 12.0pt; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold"><o:p>
+        </o:p>
+        </span></font></p>
+  </center>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="left"><span style="mso-bidi-font-size: 12.0pt; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA"><font face="Arial" size="2">O
+        comando Break, quebra a entidade selecionada, gerando duas outras
+        entidades ou simplesmente apagando parte da mesma. Quando o comando
+        Break é usado para a quebra de somente um ponto, não funciona para
+        entidades fechadas como são: circunferências, elipses e spline.
+        Objetos como circunferências, elipses e splines são sempre quebrados
+        em sentido anti-horário.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="left"><span style="mso-bidi-font-size: 12.0pt; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA"><font face="Arial" size="2">Após
+        selecionado o objeto a quebrar, pode-se acionar a opção First Point,
+        que permite informar o primeiro e o segundo ponto de quebra. Digitando o
+        símbolo arroba @ como segundo ponto, o AutoCAD entende que a quebra
+        deve ocorrer somente no primeiro ponto informado.<span style="mso-spacerun: yes">&nbsp;
+        </span><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="right"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold"><a href="#inicio">i</a></span><a href="#inicio"><span style="mso-bidi-font-size: 12.0pt">nicio</span></a><span style="mso-bidi-font-size: 12.0pt; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold"></o:p>
+        </span></font></p>
+  <center>
+        <p style="text-align:justify"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><b><a name="Chamfer:">Chamfer:</a></b></span><span style="mso-bidi-font-size: 12.0pt">
+        <o:p>
+        </o:p>
+        </span></font></p>
+        <p align="center" style="text-align:center"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><a name="chanfro"></a>
+        <img src="modifi19.jpg" v:shapes="_x0000_i1039" width="212" height="109"><o:p>
+        </o:p>
+        </font>
+        </span></p>
+  </center>
+        <p style="margin:0cm;margin-bottom:.0001pt" align="left"><span style="mso-bidi-font-size: 12.0pt; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA"><font face="Arial" size="2">Este
+        comando cria chanfros através da informação de duas distâncias e um
+        ângulo. As distâncias são referentes ao prolongamento das linhas que
+        se encontram num determinado vértice. Para criar vértices entre duas
+        linhas (cantos vivos), basta executar o comando normalmente utilizando
+        ambas as distâncias igual a 0 (zero). Opções para criar chanfros:<o:p>
+        &nbsp;</font>
+        </span></p>
+        <ul>
+          <li>
+            <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Polyline:
+        quando aplicado a uma polyline, constrói chanfros em todos os cantos
+            possíveis.</font></span></li>
+          <li>
+            <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Distance:
+        permite definir uma distância de chanfros.<o:p>
+            &nbsp;</font></span></li>
+          <li>
+            <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Angle:
+        permite definir um ângulo de chanfro, se este for o caso.<o:p>
+            &nbsp;</font></span></li>
+          <li>
+            <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Trim:
+        configura o AutoCAD para cortar ou não, as linhas a serem chanfradas.<o:p>
+            &nbsp;</font></span></li>
+          <li>
+            <p align="left"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Method:
+        permite definir o método a ser utilizado para o chanfro (distância e
+        ângulo ou duas distâncias).<o:p>
+            &nbsp;</font></span></li>
+        </ul>
+        <p align="right"><span style="mso-bidi-font-size: 12.0pt"><a href="#inicio"><font face="Arial" size="2">inicio</font></a>
+        </span></p>
+        <p align="left"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><b><a name="Fillet:">Fillet:</a></b>
+        </span><span style="mso-bidi-font-size: 12.0pt">
+        <o:p>
+        </o:p>
+        </span></font></p>
+  <center>
+        <p align="center" style="text-align:center"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2"><a name="fillet"></a>
+        <img src="modifi20.jpg" v:shapes="_x0000_i1040" width="188" height="105"><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Este
+        comando produz arcos de circunferência entre duas entidades. Também
+        pode gerar cantos vivos se o raio definido for igual a 0. Pode ser
+        utilizado em linhas paralelas. Na opção Polyline (digitar P) quando
+        aplicado sobre uma polilinha, arredonda todos os cantos de uma só vez.
+        Na opção Radius (digitar R), é para definir o valor de raio a ser
+        utilizado. Na opção Trim (digitar T), define se os objetos
+        selecionados serão ou não cortados após o comando Fillet.<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>
+        </font>
+        </span></p>
+  </center>
+        <p align="right"><font face="Arial" size="2"><span style="mso-bidi-font-size: 12.0pt"><a href="#inicio">inicio</a><span style="mso-spacerun: yes">&nbsp;
+        </span><o:p>
+        </span><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold">&nbsp;<o:p>
+        </o:p>
+        </span></font></p>
+  <center>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2"><b><a name="Explode:">Explode:</a></b>
+        <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p align="center" style="text-align:center"><span style="mso-bidi-font-size: 12.0pt; mso-bidi-font-weight: bold"><font face="Arial" size="2"><a name="explode"></a>
+        <img src="modifi21.jpg" v:shapes="_x0000_i1041" width="216" height="112"><o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p style="text-align:justify"><span style="mso-bidi-font-size: 12.0pt"><font face="Arial" size="2">Este
+        comando desagrupa entidades compostas como polilinhas, blocos, cotas
+        hachuras, etc. Dependendo da estrutura do objeto em edição, serão
+        necessários vários comandos Explode para que se tenha uma determinada
+        entidade totalmente independente. Exemplo é quando explodido um bloco
+        que tem cotas, primeiro tem que explodir o bloco e depois a cota.</font></span>
+        <p align="center"><font face="Arial" size="2"><span style="mso-bidi-font-size: 10.0pt">Clique
+        <a href="p_p_desenhando_as_vistas_ortografica.htm">aqui</a> para ver um
+        passo a passo utilizando comandos de desenho e modificadores&nbsp;</span></font></center>
+        <p align="right"><span style="mso-bidi-font-size: 12.0pt"><a href="#inicio"><font face="Arial" size="2">inicio</font></a>
+        </span></td>
+    </tr>
+  </table>
+  &nbsp;<!--msnavigation--></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<p>&nbsp;</p>
+<p align="center">&nbsp;</p>
+
+</td></tr><!--msnavigation--></table></body></html>

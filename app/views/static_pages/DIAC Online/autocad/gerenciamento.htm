@@ -1,0 +1,1186 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="eneida gonzalez valdes curso autocad 2000" content="eneida, gonzalez, valdes, curso autocad, expressao grafica, demac, representacao grafica, desenho tecnico, dibujo tecnico, iesb, unb">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Comandos de Gerenciamento</title>
+<style fprolloverstyle>A:hover {color: #0000FF; font-family: Arial; font-size: 12 pt; font-weight: bold}
+</style>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="file:///D:/Arquivos%20de%20programas/Microsoft%20Office/Office10/fpclass/animate.js">
+</script>
+<meta name="Microsoft Border" content="tb">
+</head>
+
+<body vlink="#FF00FF" onload="dynAnimation()">
+<blockquote>
+<h1 align="center"><font face="Arial" size="2">
+<a href="conh_autocad.htm" name="inicio" onmouseover="document['fpAnimswapImgFP15'].imgRolln=document['fpAnimswapImgFP15'].src;document['fpAnimswapImgFP15'].src=document['fpAnimswapImgFP15'].lowsrc;" onmouseout="document['fpAnimswapImgFP15'].src=document['fpAnimswapImgFP15'].imgRolln">
+<img border="0" src="../images/botones_fondo/p_esquerda.gif" id="fpAnimswapImgFP15" name="fpAnimswapImgFP15" dynamicanimation="fpAnimswapImgFP15" lowsrc="../images/botones_fondo/p_esquerda1.gif" alt="Conhecendo o AutoCAD 2000" width="13" height="16"></a>
+</font><font face="Arial Black" color="#0066FF" size="5">Configurações no
+AutoCAD</font><font face="Arial" size="2">  
+<a href="criacao_entidade.htm" onmouseover="document['fpAnimswapImgFP16'].imgRolln=document['fpAnimswapImgFP16'].src;document['fpAnimswapImgFP16'].src=document['fpAnimswapImgFP16'].lowsrc;" onmouseout="document['fpAnimswapImgFP16'].src=document['fpAnimswapImgFP16'].imgRolln">
+<img border="0" src="../images/botones_fondo/p_direita.gif" id="fpAnimswapImgFP16" name="fpAnimswapImgFP16" dynamicanimation="fpAnimswapImgFP16" lowsrc="../images/botones_fondo/p_direita1.gif" alt="Desenhando em AutoCAD" width="13" height="16"></a></font></h1>
+</blockquote>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="680" style="font-family: Arial; font-size: 10 pt">
+    <tr>
+      <td>
+<p align="left" style="text-indent: 15"><font face="Arial" size="2">
+Neste capítulo vamos configurar nossa área de desenho:
+os <a href="#limites_desenho"> limites do desenho</a>, os tamanhos dos <a href="#formatos padronizados">formatos</a>
+padronizados pelas normas ABNT, o texto, as <a href="#Units:">unidades</a>, as <a href="#Layer">camadas</a>, veremos também, no
+caso de utilizar uma escala determinada para plotar (imprimir), conheceremos
+como <a href="#tamanho do texto"> configurar o texto</a> para na saída ter o tamanho previsto,
+utilização dos recursos de controle de imagem, <a href="#Controle de Imagem">Zoom</a>,
+e mostraremos qual é a <a href="#Barra de Status">barra de status</a> e como funciona, e tem
+mais...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+<p align="left"><font face="Arial" size="2">Os
+comandos de gerenciamento podem ser agrupados em:<o:p>
+ </o:p>
+</font></p>
+<ul>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2"><b style="mso-bidi-font-weight:normal"><a href="#Comandos auxiliares">Comandos
+    Auxiliares</a></b><i style="mso-bidi-font-style: normal">:</i> Estes comandos
+    definem as unidades, os limites do desenho e estabelecem uma orientação
+    para a execução dos elementos dos desenhos. Os comandos unidades, e
+    limites do desenho, estão no menu suspenso <span style="text-transform:uppercase">FORMat</span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; text-transform: uppercase">&nbsp;</span><span style="text-transform: uppercase">
+    </span>Units<span style="text-transform:uppercase">, </span>Thickness
+    e<span style="text-transform:
+uppercase"> </span>Drawing
+    Limits
+    (Unidades, Espessuras e Limites do Desenho).&nbsp;</font></li>
+</ul>
+<p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">&nbsp;&nbsp;
+Clique <a href="#Como definir">aqui</a> para ver um exemplo
+de como definir os limites de seu
+desenho.&nbsp;</font></p>
+<p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">&nbsp;&nbsp;
+Clique <a href="#Fatores">aqui </a>para ver exemplos de fatores de escala,
+limites de desenho e tamanho de texto.&nbsp;</font></p>
+<p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">&nbsp;&nbsp;
+Clique <a href="#polar snap">aqui </a>para<span style="mso-bidi-font-style: italic">
+configurar Polar
+Snap <o:p>
+&nbsp;</span></font></p>
+<p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Os
+modos do AutoCAD são utilizados como ferramentas de desenho, estes modos se
+encontram na barra de status mostrada na tela de entrada do AutoCAD. Se quiser
+saber mais clique <a href="#Barra de Status">aqui</a> para saber como configurar
+os mesmos.&nbsp;</font></span></p>
+<ul>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2"><a href="#Comandos de precisão">Comandos
+    de precisão</a>: Estes
+    comandos determinam a seleção de pontos de construção do desenho com
+    precisão, ativando uma atração automática a um ponto do objeto (ponto
+    notável). Esta capacidade é conhecida como SNAP (saltos) ou OSNAP
+    (Object Snap). Eles podem ser acionados pelo menu lateral (****),
+    pelo menu suspenso View<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">à</span>
+    Toolbars<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">à</span>
+    Object Snap ou Tools<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">à</span>
+    Drafting Settings<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">à</span>
+    Object Snap,
+    ou ainda pelo menu cursor acionando Shift
+    em conjunto com o botão direito do mouse.
+    Este comando pode ser ativado ou desativado com F3.<span style="mso-bidi-font-style:italic"><o:p>
+    </o:p>
+    </span> <b style="mso-bidi-font-weight:normal"><o:p>
+    &nbsp;</b></font></li>
+</ul>
+<p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="right"><font face="Arial" size="2">&nbsp;<a href="#inicio">inicio</a></font>
+<ul>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">Comandos
+    de armazenamento;<b style="mso-bidi-font-weight:normal"><o:p>
+    </b>Estes comandos permitem salvar os desenhos executados no AutoCAD,
+    enquanto eles se encontram na memória RAM do computador. Se este for
+    desligado antes de salvar, todo o trabalho é perdido.<span style="mso-spacerun: yes">&nbsp;&nbsp;
+    </span><i style="mso-bidi-font-style:normal"><span style="mso-spacerun:
+     yes">&nbsp;&nbsp;&nbsp;</span><span style="text-transform:uppercase"><span style="mso-spacerun: yes">&nbsp;</span><o:p>
+    </o:p>
+    </span></i></font>
+<p style="margin-left: 36.0pt" align="left"><font face="Arial" size="2"><span style="mso-spacerun: yes">&nbsp;</span>As
+opções são igual que no Windows:<o:p>
+</o:p>
+</font></p>
+  </li>
+</ul>
+<p style="text-indent: -18.0pt; mso-list: l2 level1 lfo51; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Save: salva o desenho atual para um arquivo ativo (aberto);<o:p>
+ &nbsp;<o:p>
+</o:p>
+</font></p>
+<p style="text-indent: -18.0pt; mso-list: l60 level1 lfo52; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Save as: salva o desenho atual para um arquivo com nome diferente;<span style="text-transform:
+uppercase"><o:p>
+</span><span style="text-transform: uppercase">&nbsp;<o:p>
+&nbsp;
+</span></font></p>
+<p style="text-indent: -18.0pt; mso-list: l43 level1 lfo53; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;<span style="text-transform: uppercase">&nbsp;&nbsp;&nbsp;
+- </span>Exit: encerra o desenho atual e sai para o sistema operacional,
+caso haja alterações no desenho não salvas, antes de sair aparece a caixa de<span style="mso-spacerun: yes">&nbsp;
+</span>diálogo.<span style="text-transform:uppercase"><o:p>
+&nbsp;
+</span></font></p>
+<p style="text-indent: -18.0pt; mso-list: l43 level1 lfo53; tab-stops: list 54.0pt; margin-left: 54.0pt" align="right"><a href="#inicio"><font face="Arial" size="2">inicio</font></a>
+</p>
+<ul>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2"><a href="#Layer">comandos
+    Layer ou camadas</a>;<b style="mso-bidi-font-weight:normal"><o:p>
+    </b>
+O AutoCAD possibilita a execução de um desenho em diferentes níveis,
+facilitando assim o trabalho do usuário, uma vez que desenhos complexos podem
+ser separados em níveis, que se apresentam como se fossem papeis transparentes
+perfeitamente superpostos. Desta maneira cada parte do desenho pode ser
+desenhado num nível. A utilização de níveis possibilita<span style="mso-spacerun: yes">&nbsp;</span>que um mesmo desenho possua várias versões, uma em cada nível. Apenas
+o desenho ativo pode ser plotado. É aconselhável a determinação de uma cor
+diferente para cada nível, para facilitar a visualização de cada nível na
+tela. Ao iniciarmos um desenho o AutoCAD nos leva para o nível 0, sendo que
+este nível não pode ser apagado nem renomeado. A criação e manutenção dos
+níveis são efetuados através da caixa de diálogo Layer Properties Manager&quot;
+que pode ser ativada via menu de barra <span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">--&gt;</span>
+    &quot;Format&quot;<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">--&gt;</span>
+Layer;<span style="mso-spacerun:
+yes">&nbsp;</span>menu de tela <span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">--&gt;</span>
+    FORMAT<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">
+    --&gt;</span>Layer
+ou no ícone da barra <i style="mso-bidi-font-style:normal">&quot;Object
+Properties</i>&quot;<b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:
+normal"><o:p>
+    &nbsp;
+</i></b></font></li>
+</ul>
+    <p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="right"><font face="Arial" size="2"><b style="mso-bidi-font-weight:normal">
+    </o:p>
+    </b> <a href="#inicio">inicio</a></font>
+<ul>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2"><a href="#Controle de Imagem">Controle
+    de Imagem</a>: Os<b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal">
+</i></b>comandos de controle de imagem operam somente a nível de visualização
+do desenho, não alterando as características das elementos criadas. Estes
+comandos estão no menu suspenso <b style="mso-bidi-font-weight:normal"><span style="mso-spacerun: yes">&nbsp;</span><i style="mso-bidi-font-style:normal">View</i></b><i style="mso-bidi-font-style: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-weight: normal"><b style="mso-bidi-font-weight: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: normal">
+    </b></i><b style="mso-bidi-font-weight: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: normal"><i style="mso-bidi-font-style: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-weight: normal">&gt;</i></b><b style="mso-bidi-font-weight:normal"><span style="mso-bidi-font-style: italic">
+    ZOOM, Pan e Aerial View;</span></b><o:p>
+    &nbsp;</font></li>
+</ul>
+<ul>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">Outros
+    Comandos:&nbsp;</font></li>
+</ul>
+<p style="text-indent: -18.0pt; mso-list: l26 level2 lfo55; tab-stops: list 36.0pt; margin-left: 36.0pt" align="left"><font face="Arial" size="2"><i style="mso-bidi-font-style:normal"><b style="mso-bidi-font-weight:normal">&nbsp;&nbsp;</b></i><i style="mso-bidi-font-style: normal; mso-bidi-font-weight: normal"><b style="mso-bidi-font-weight: normal; mso-bidi-font-style: normal">&nbsp;&nbsp;&nbsp;&nbsp;</b></i><b style="mso-bidi-font-weight: normal; mso-bidi-font-style: normal"><i style="mso-bidi-font-style: normal; mso-bidi-font-weight: normal">
+</i></b><i style="mso-bidi-font-style:normal"><b style="mso-bidi-font-weight:normal">Comando
+Redraw</b></i><span style="mso-spacerun: yes">&nbsp; </span><b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal"><span style="mso-spacerun: yes">&nbsp;</span><o:p>
+</o:p>
+</i></b></font></p>
+<p style="text-indent: 1.0cm" align="left"><font face="Arial" size="2">Este
+comando redesenha a imagem presente na tela, isto é,<span style="mso-spacerun: yes">&nbsp;
+</span>faz uma limpeza na imagem da tela, eliminando as marcas auxiliares,(blips).
+Ao emitir este comando a tela dará uma &quot;piscada&quot; e o desenho é
+atualizado. <span lang="EN-US" style="mso-ansi-language: EN-US"><i style="mso-bidi-font-style:normal"> <b style="mso-bidi-font-weight:normal">View</b></i></span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: normal; mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-weight: normal"><b style="mso-bidi-font-weight: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: normal">
+</b></i><i style="mso-bidi-font-style: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-weight: normal"><b style="mso-bidi-font-weight: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: normal">-</b></i><i style="mso-bidi-font-style: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-weight: normal"><b style="mso-bidi-font-weight: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: normal">-</b></i><b style="mso-bidi-font-weight: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: normal"><i style="mso-bidi-font-style: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-weight: normal">&gt;</i></b></span><span lang="EN-US" style="mso-ansi-language: EN-US"><i style="mso-bidi-font-style:normal"><b style="mso-bidi-font-weight:normal">
+Redraw<o:p>
+</o:p>
+</b></i></span></font></p>
+<p style="text-indent: 1.0cm" align="left"><font face="Arial" size="2"><b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language: EN-US">&nbsp;<o:p>&nbsp;</span></i></b><span lang="EN-US" style="mso-ansi-language: EN-US"><i style="mso-bidi-font-style: normal; mso-ansi-language: EN-US; mso-bidi-font-weight: normal"><b style="mso-bidi-font-weight: normal; mso-ansi-language: EN-US; mso-bidi-font-style: normal">&nbsp;&nbsp;&nbsp;</b></i><b style="mso-bidi-font-weight: normal; mso-ansi-language: EN-US; mso-bidi-font-style: normal"><i style="mso-bidi-font-style: normal; mso-ansi-language: EN-US; mso-bidi-font-weight: normal">
+</i></b><i style="mso-bidi-font-style:normal"><b style="mso-bidi-font-weight:normal">Comando
+Regen</b></i> <o:p>
+</o:p>
+</span></font></p>
+<p style="text-indent: 1.0cm" align="left"><font face="Arial" size="2">Este
+comando provoca uma regeneração forçada do desenho inteiro, redesenhando os
+elementos na tela refinando a representação dos objetos, no entanto
+recomenda-se a utilização deste comando quando a representação estiver muito
+grosseira. <b style="mso-bidi-font-weight:
+normal"><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language: EN-US">View</span></i></b><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: normal; mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-weight: normal"><b style="mso-bidi-font-weight: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: normal">-</b></i><i style="mso-bidi-font-style: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-weight: normal"><b style="mso-bidi-font-weight: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: normal">-</b></i><b style="mso-bidi-font-weight: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: normal"><i style="mso-bidi-font-style: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-weight: normal">&gt;</i></b></span><span lang="EN-US" style="mso-ansi-language: EN-US"><i style="mso-bidi-font-style:normal"><b style="mso-bidi-font-weight:normal">
+Regen</b></i></span><span style="mso-bidi-font-weight: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: normal">-<span>-&gt;</span></span><b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language: EN-US">
+Regen</span></i></b><span lang="EN-US" style="mso-ansi-language: EN-US"> . </span>Existe
+também o comando <b style="mso-bidi-font-weight:
+normal"><i style="mso-bidi-font-style:normal">Regen</i></b> <b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal">all
+</i></b>que atua em todas as janelas (<i style="mso-bidi-font-style:normal">viewports</i>)<b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal">
+</i></b>abertas na tela do monitor.<o:p>
+&nbsp;</font></p>
+<p style="text-indent: 1.0cm" align="right"><a href="#inicio"><font face="Arial" size="2">inicio</font></a>
+</p>
+<p style="text-indent: 1.0cm" align="left"><font face="Arial" size="2"><a name="Comandos auxiliares"><font color="#0000FF">Comandos
+    auxiliares</font></a>&nbsp;</font></p>
+<ul>
+  <li>
+    <p style="text-indent: 1.0cm" align="left"><font face="Arial" size="2">&nbsp;<i style="mso-bidi-font-style:normal"><a name="Units:"><font color="#0000FF">Units</font></a></i><a name="Units:">:</a>
+    define o formato e o grau de precisão que o AutoCAD utiliza para apresentar
+    as medidas em unidade de medida, ângulo e direção do ângulo.</font></li>
+</ul>
+<p align="center" style="margin-left: 54.0pt"><font face="Arial" size="2">
+<img src="gerenc4.jpg" v:shapes="_x0000_i1025" width="355" height="335"></font></p>
+<p align="right" style="margin-left: 54.0pt"><a href="#inicio"><font face="Arial" size="2">inicio</font></a>
+</p>
+      </center>
+<p align="left" style="margin-left: 54.0pt"><font face="Arial" size="2"><font color="#0000FF">Drawing
+Limits</font>:
+define a área de desenho (tamanho do papel);<a name="limites_desenho"></a></font></p>
+      <center>
+<p align="justify"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;<span style="text-transform: uppercase">
+</span>Uma das grandes vantagem no uso do AutoCAD é poder desenhar em escala
+natural, e ainda ver como ficará seu desenho na hora de imprimir.&nbsp;
+</font>
+</span></p>
+<p align="justify"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2"> Quando é iniciado um novo desenho deve limitar a área de seu desenho
+para que seja dimensionada a se ajustar a uma folha de papel padronizada. Com isto,
+obterá uma moldura de referência entre seu desenho no AutoCAD e a cópia
+em papel.<o:p>
+</o:p>
+</font>
+</span></p>
+<p align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;
+Para configurar a área de trabalho do desenho você precisa conhecer os
+tamanhos padronizados da folha de papel para utilizar um tamanho de desenho em
+escala natural e poder posteriormente imprimir esse desenho na folha padronizada
+de papel escolhida. <o:p>
+</o:p>
+</font> </span></p>
+<p align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Tamanhos
+padronizados dos <a href="#formatos" name="formatos padronizados"> formatos</a> de desenho segundo as normas ABNT.&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<div align="center">
+  <table border="1" width="56%" height="151">
+    <tr>
+      <td width="19%" height="19">
+        <p align="center"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Formato</font></span></p>
+      </td>
+      <td width="81%" height="19">
+        <p align="center"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Altura
+        x Largura</font></span></p>
+      </td>
+      <td width="81%" height="19">
+        <p align="center"><font face="Arial" size="2">Margem esquerda</font></td>
+      <td width="81%" height="19">
+        <p align="left"><font face="Arial" size="2">Margem direita, superior e
+        inferior</font></td>
+    </tr>
+    <tr>
+      <td width="19%" height="19">
+        <p align="center"><font face="Arial" size="2">A0</font></p>
+      </td>
+      <td width="81%" height="19">
+        <p align="center"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">841
+        x 1189</font></span></p>
+      </td>
+      <td width="81%" height="19" align="center"><font face="Arial" size="2">25</font></td>
+      <td width="81%" height="19" align="center"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">10</font></span></td>
+    </tr>
+    <tr>
+      <td width="19%" height="19">
+        <p align="center"><font face="Arial" size="2">A1</font></p>
+      </td>
+      <td width="81%" height="19">
+        <p align="center" style="text-indent: 0cm"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">594
+        X 841</font></span></p>
+      </td>
+      <td width="81%" height="19" align="center">
+        <font face="Arial" size="2">25</font>
+      </td>
+      <td width="81%" height="19" align="center">
+        <span style="mso-bidi-font-style: italic">
+        <font face="Arial" size="2">10</font>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td width="19%" height="19">
+        <p align="center" style="text-indent: 0cm"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">A2</font></span></p>
+      </td>
+      <td width="81%" height="19">
+        <p align="center" style="text-indent: 0cm"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">420
+        X 594</font></span></p>
+      </td>
+      <td width="81%" height="19" align="center">
+        <font face="Arial" size="2">25</font>
+      </td>
+      <td width="81%" height="19" align="center">
+        <span style="mso-bidi-font-style: italic">
+        <font face="Arial" size="2">7</font>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td width="19%" height="19">
+        <p align="center" style="text-indent: 0cm"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">A3</font></span></p>
+      </td>
+      <td width="81%" height="19">
+        <p align="center" style="text-indent: 0cm"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">297
+        X 420</font></span></p>
+      </td>
+      <td width="81%" height="19" align="center"><font face="Arial" size="2">25</font></td>
+      <td width="81%" height="19" align="center"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">7</font></span></td>
+    </tr>
+    <tr>
+      <td width="19%" height="20">
+        <p align="center" style="text-indent: 0cm"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">A4</font></span></p>
+      </td>
+      <td width="81%" height="20">
+        <p align="center" style="text-indent: 0cm"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">297
+        X 210</font></span></p>
+      </td>
+      <td width="81%" height="20" align="center"><font face="Arial" size="2">25</font></td>
+      <td width="81%" height="20" align="center"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">7</font></span></td>
+    </tr>
+  </table>
+</div>
+<p align="right"><font face="Arial" size="2"><span style="mso-bidi-font-style: italic"><o:p></o:p></span><a href="#inicio">inicio</a></font></p>
+<p align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2"><a name="Como definir"><font color="#0000FF">Como
+definir</font></a> <font color="#0000FF"> os limites de seu desenho?</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp; <o:p>
+ </o:p>
+</font>
+ </span></p>
+<p align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Para
+visualizar<span style="mso-spacerun: yes">&nbsp; </span>quais são os limites
+atuais do seu desenho na tela de trabalho <o:p>
+</o:p>
+</font>
+</span></p>
+<ul>
+  <li>
+    <p style="margin-left:46.35pt;text-indent:-18.0pt;
+mso-list:l65 level1 lfo43;tab-stops:list 46.35pt" align="left"><font face="Arial" size="2">Escolha View
+    <span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">--&gt;</span>
+    Zoom <span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">--&gt;</span>
+    All <o:p>
+</o:p>
+    </font></li>
+  <li>
+    <p style="margin-left:46.35pt;text-indent:-18.0pt;
+mso-list:l65 level1 lfo43;tab-stops:list 46.35pt" align="left"><font face="Arial" size="2">Ative grade da tela,
+    dê um clique em&nbsp; GRID, na barra de status;
+F7 sua tela vai-se ver assim:<o:p>
+    &nbsp;<o:p>
+</o:p>
+    </font></li>
+</ul>
+<p align="center" style="text-indent: 0cm"><font face="Arial" size="2">
+<img src="gerenc5.jpg" v:shapes="_x0000_i1026" width="576" height="414"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1026"
+  DrawAspect="Content" ObjectID="_1073330759">
+ </o:OLEObject>
+</xml><![endif]-->
+<o:p>
+ &nbsp;<o:p>
+&nbsp;</font></p>
+<ul>
+  <li>
+    <p style="margin-left:46.35pt;text-indent:-18.0pt;
+mso-list:l49 level1 lfo44;tab-stops:list 46.35pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-ansi-language: EN-US; mso-bidi-font-style: italic">Escolha
+FORMAT </span><span style="mso-bidi-font-style: italic; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">--&gt;</span><span lang="EN-US" style="mso-ansi-language: EN-US; mso-bidi-font-style: italic">
+    Drawing Limits.<o:p>
+</o:p>
+    </span></font></li>
+  <li>
+    <p style="margin-left:46.35pt;text-indent:-18.0pt;
+mso-list:l49 level1 lfo44;tab-stops:list 46.35pt" align="left"><font face="Arial" size="2"><span lang="EN-US" style="mso-ansi-language: EN-US; mso-bidi-font-style: italic">No
+prompt </span><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language: EN-US">Specify
+lower left corner or (ON/OFF) &lt;0,0,0&gt;</span></i><span lang="EN-US" style="mso-ansi-language: EN-US; mso-bidi-font-style: italic">
+</span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: italic">à</span><span style="mso-ansi-language: EN-US; mso-bidi-font-style: italic">
+<span lang="EN-US">enter;<o:p>
+</o:p>
+</span></span></font></li>
+  <li>
+    <p style="margin-left:46.35pt;text-indent:-18.0pt;
+mso-list:l49 level1 lfo44;tab-stops:list 46.35pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-style: italic">No prompt </span><i style="mso-bidi-font-style:normal">Specify
+right corner &lt;420.00,297.00&gt;</i><span style="mso-bidi-font-style: italic">
+Mudar para os valores do formato escolhido, exemplo digite </span><i style="mso-bidi-font-style:
+normal">&lt;210, 297&gt;;</i><span style="mso-bidi-font-style: italic"><o:p>
+</o:p>
+</span></font></li>
+  <li>
+    <p style="margin-left:46.35pt;text-indent:-18.0pt;
+mso-list:l49 level1 lfo44;tab-stops:list 46.35pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-style: italic">A seguir, e</span>scolha
+View<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">--&gt;</span>
+    Zoom<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">--&gt;</span>
+All e a grade de sua tela de trabalho deve ficar assim:<span style="mso-bidi-font-style:
+italic"><o:p>
+</o:p>
+</span></font></li>
+</ul>
+      </center><p style="text-indent:0cm" align="right"><font face="Arial" size="2">
+<img src="gerenc6.jpg" v:shapes="_x0000_i1027" width="604" height="435"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1027"
+  DrawAspect="Content" ObjectID="_1073330760">
+ </o:OLEObject>
+</xml><![endif]-->
+<o:p>   &nbsp;&nbsp;&nbsp;</font></p>
+      <p style="text-indent:0cm" align="right"><a href="#inicio"><font face="Arial" size="2">inicio</font></a></p>
+      <p style="text-indent:0cm" align="left"><font face="Arial" size="2"><a name="Fatores"><font color="#0000FF">Fatores</font></a> <font color="#0000FF">
+      de escala, limites do desenho e tamanho do texto</font><o:p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</o:p></font></p>
+      <center>
+<p align="left"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;
+Agora
+vamos traduzir o tamanho da folha com o área<span style="mso-spacerun: yes">&nbsp;</span>da tela do desenho e a escala a utilizar para plotar no formato
+escolhido. <o:p>
+</o:p>
+</font></p>
+<p align="left"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;
+Esta
+tabela mostra na área superior o tamanho da folha a ser plotada (limite do
+desenho), à esquerda, a escala a ser utilizada para plotar no tamanho de papel
+escolhido, e dentro da tabela vamos ter a dimensão da área de trabalho na tela
+gráfica.<o:p>
+&nbsp;</font></p>
+<table border="1" width="100%" height="267">
+  <tr>
+    <td width="16%" align="center" height="39" rowspan="2">
+      <p align="center"><font face="Arial" size="2">Escala<o:p>
+      &nbsp;</font></p>
+    </td>
+    <td width="84%" colspan="5" height="13">
+      <p align="center"><font face="Arial" size="2">Área
+      do formato escolhido para plotar</font></td>
+  </tr>
+  <tr>
+    <td width="16%" height="26">
+      <p align="center"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: ES; mso-bidi-language: HE"><font face="Arial" size="2">A0
+      (mm) (841x1189)</font></span></p>
+    </td>
+    <td width="17%" height="26">
+      <p align="left"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: ES; mso-bidi-language: HE"><font face="Arial" size="2">A1
+      (mm) (594x841)</font></span></p>
+    </td>
+    <td width="17%" height="26">
+      <p align="left" style="text-indent: 0cm; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: page; mso-element-anchor-horizontal: margin; mso-element-top: 295.95pt; mso-height-rule: exactly"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: ES; mso-bidi-language: HE"><font face="Arial" size="2">A2
+      (mm) (420x594)</font></span></td>
+    <td width="17%" height="26">
+      <p align="center"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: ES; mso-bidi-language: HE"><font face="Arial" size="2">A3
+      (mm) (297x420)</font></span></p>
+    </td>
+    <td width="17%" height="26">
+      <p align="center"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: ES; mso-bidi-language: HE"><font face="Arial" size="2">A4
+      (mm) (210x297)</font></span></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19"><font face="Arial" size="2">1:5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></td>
+      </center>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">420x594(cm)</font></p>
+    </td>
+      <center>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">&nbsp;297x420(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">210x297(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">148x210(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">105x148(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">841x1189(cm)</font></p>
+    </td>
+    <td width="17%" height="19">
+      <p align="center"><font face="Arial" size="2">594x841(cm)</font></p>
+    </td>
+    <td width="17%" height="19">
+      <p align="center"><font face="Arial" size="2">420x594(cm)</font></p>
+    </td>
+    <td width="17%" height="19">
+      <p align="center"><font face="Arial" size="2">297x420(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">210x297(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1682x2378(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1188x1682(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">840x1188(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">594x841(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">420x594(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2102x2972(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1485x2102(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1050x1485(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">742x1050(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">525x742.5(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:40&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">3360x4756(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2376x3360(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1680x2376(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1188x1680(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">840x1188(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:50&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">4200x5940(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2970x4200(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2100x2970(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1480x2100(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1050x1480(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:75&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">6307x8917(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">4455x6307(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">3150x4455(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2227x3450(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">1575x2227(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">8410x11890(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">5940x8410(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">4200x5940(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2970x4200(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2100x2970(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" align="center" height="19">
+      <p align="center"><font face="Arial" size="2">1:125&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+    </td>
+    <td width="16%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">10512x14862(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">7425x10512(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">5250x7425(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">3712x5250(cm)</font></p>
+    </td>
+    <td width="17%" height="19" align="center">
+      <p align="center"><font face="Arial" size="2">2625x3712(cm)</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="16%" height="19">
+      <p align="left"></td>
+    <td width="84%" height="19" colspan="5">
+      <p align="center"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: PT-BR; mso-fareast-language: ES; mso-bidi-language: HE"><font face="Arial" size="2">Dimensões da área
+      de trabalho na tela do AutoCAD</font></span></p>
+    </td>
+  </tr>
+</table>
+<p align="left"><font color="#0000FF" size="2" face="Arial">Configurar o <a name="tamanho do texto">tamanho</a>
+do texto na saída da plotagem</font></p>
+<p align="justify"><font face="Arial" size="2">Para estes
+exemplos, vamos considerar que você quer que na saída de
+impressão que o TEXTO&nbsp; no desenho fique numa altura de 3 mm, para isto, você vai multiplicar o tamanho do texto escolhido pelo
+fator de escala utilizado na plotagem. Ou seja: quer um texto impresso de 3 mm e
+está utilizando um fator de escala de 5 (1:5) então deve colocar um tamanho de
+texto de 15 (multiplica vezes o fator de escala da plotagem 5).<o:p>
+&nbsp;</font></p>
+<p align="right"><font face="Arial" size="2">
+&nbsp;<a href="#inicio">inicio</a></font></p>
+<p align="left"><a name="Barra de Status"><font color="#0000FF" size="2" face="Arial">Barra
+de Status</font></a></p>
+<div align="left">
+  <div align="center">
+    <table border="0" cellpadding="0" cellspacing="0" width="520">
+      <tr>
+        <td><font face="Arial" size="2"><map name="FPMap0">
+          <area href="#Snap" shape="rect" coords="224, 6, 255, 19">
+          <area href="#Grid" shape="rect" coords="255, 7, 283, 21">
+          <area href="#Ortho" shape="rect" coords="285, 5, 322, 19">
+          <area href="#Polar" shape="rect" coords="324, 6, 360, 21">
+          <area href="#Comandos de precisão" shape="rect" coords="361, 5, 399, 21"></map>
+        <img border="0" src="barra%20de%20status.gif" usemap="#FPMap0" width="582" height="26"></font></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<blockquote>
+<p align="left"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp; <a name="Snap">Snap</a>
+: permite um deslocamento de forma incremental do cursor de desenho na tela.
+Este comando opera em conjunto com o Grip podendo ou não ter o mesmo valor.
+Estes deslocamentos podem ser configurados para outras distâncias escolhidas
+pelo desenhista em Tool<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">--&gt;</span>
+Drafting Setting --&gt;Snap and Grid Pode ativar ou desativar com F9.<o:p>&nbsp;</font></p>
+<p align="left"><font face="Arial" size="2">&nbsp;&nbsp; <a name="Grid">Grid</a>:
+estabelece uma grade auxiliar na tela do desenho criando um padrão de pontos
+uniformemente espaçados. Estes espaçamentos podem ser configurados para outras
+distâncias escolhidas pelo desenhista em Tool<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">--&gt;</span>
+Drafting Setting <span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">--&gt;</span>
+Snap and Grid. Pode ativar ou desativar com F7.<o:p>
+&nbsp;</font></p>
+</blockquote>
+<blockquote>
+<p align="left"><font face="Arial" size="2">&nbsp; <a name="Ortho">Ortho</a>
+: este modo força as linhas de desenho a ser estritamente vertical e
+horizontal, também restringe o desenho de arcos. Quando ativado o modo Ortho o
+modo Polar Tracking é automaticamente desligado. Pode ativar ou desativar o
+modo Ortho dê um clique em F8.<o:p>
+</o:p></font></p>
+<p align="left"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp; <a name="Polar">Polar</a>
+Tracking: Configura as coordenadas polares fixando um incremento do ângulo e os
+ângulos adicionais, e quando ligada, vai mostrando na tela a distância da
+linha e o ângulo que a mesma está sendo movida.<span style="mso-spacerun: yes">&nbsp;
+</span>Pode ser ativada ou desativada com F10.<span style="mso-bidi-font-style:italic"><o:p>
+&nbsp;
+</span></font></p>
+</blockquote>
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" width="430">
+    <tr>
+      <td><font face="Arial" size="2">
+      <img src="gerenc7.jpg" v:shapes="_x0000_i1028" align="center" width="410" height="369">
+        </font></td>
+    </tr>
+  </table>
+</div>
+<p>&nbsp;</p>
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" width="430">
+    <tr>
+      <td><font face="Arial" size="2">
+      <img src="gerenc8.jpg" v:shapes="_x0000_i1029" align="center" width="462" height="415">
+        </font></td>
+    </tr>
+  </table>
+</div>
+<p align="justify"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;
+Agora
+veremos como configurar seu desenho para trabalhar com as ferramentas Polar
+Tracking e Polar Snap. A opção Polar Tracking auxilia você a alinhar seu
+cursor segundo ângulos horizontal e vertical exatos, como com a régua T e
+esquadros. Polar Snap é semelhante a GRID SNAP quanto a fazer com que o cursor
+se mova em incrementos exatos. A principal diferença é que<span style="mso-spacerun:
+yes">&nbsp; </span>Polar Snap só funciona em conjunto com Polar Tracking.<o:p>
+</o:p>
+</font></p>
+<p align="justify"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">&nbsp;<o:p>
+ <font color="#0000FF">
+ Como
+configur</o:p>ar Polar
+Snap <o:p>
+ <a name="polar snap"></a></font></o:p>
+</font></span></p>
+<ul>
+  <li>
+    <p align="justify"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Abra a caixa de diálogo
+Drafting Settings novamente (Tool--&gt; Drafting Setting);<o:p>
+</o:p>
+    </font>
+    </span></li>
+  <li>
+    <p align="justify"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Certifique-se de ter
+selecionado a divisória Snap and Grid. Dê um clique no botão Polar Snap no
+grupo de botões Snap Type &amp; Style;<o:p>
+</o:p>
+    </font>
+</span></li>
+  <li>
+    <p align="justify"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Dê um clique duplo na
+configuração Polar Distance e digite 10 (se as unidades estão configuradas em
+mm, em caso de estar configuradas em centímetros digite 1) como definição de
+Polar Snap;<o:p>
+</o:p>
+    </font>
+</span></li>
+  <li>
+    <p align="justify"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Dê um clique em Ok para
+sair da caixa de diálogo<span style="mso-spacerun: yes">&nbsp; </span>Drafting
+    Settings.<o:p>
+</o:p>
+    </font>
+</span></li>
+</ul>
+<p align="justify"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;<span style="mso-bidi-font-style: italic">
+ Ao
+mover o cursor sobre a área de desenho, observe que o modo Snap aparece
+desativado. Quando a opção Polar Snap está ativada você só terá o efeito
+snap efetivo ao desenhar um objeto.<span style="mso-spacerun: yes">&nbsp; </span>Você
+pode, não entanto, comutar entre Grid Snap e Polar Snap rapidamente.<o:p>
+</o:p>
+</span></font></p>
+<p align="justify"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Comutar entre Grid Snap
+e Polar Snap<o:p>
+</o:p>
+</font>
+</span></p>
+<ul>
+  <li>
+    <p align="justify"><font face="Arial" size="2"><span style="mso-bidi-font-style: italic">Dê um clique na
+ferramenta Line do menu Draw, ou digite L </span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: italic">à</span><span style="mso-bidi-font-style: italic">enter;<o:p>
+</o:p>
+</span></font></li>
+  <li>
+    <p align="justify"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Dê um clique com o botão
+direito do mouse no botão SNAP na barra de status;<o:p>
+</o:p>
+    </font>
+</span></li>
+  <li>
+    <p align="justify"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Selecione Grid Snap On
+no menu suspenso. Isto coloca a você no modo Grid Snap.<o:p>
+</o:p>
+    </font>
+</span></li>
+  <li>
+    <p align="justify"><font face="Arial" size="2"><span style="mso-bidi-font-style: italic">Pressione F6 até que
+veja as coordenadas </span><i style="mso-bidi-font-style:
+normal">x,y</i><span style="mso-bidi-font-style: italic"> serem atualizadas
+dinamicamente quando mover o cursor. Você pode clicar diretamente no leitor de
+coordenadas para percorrer as opções de leitura entre estática, dinâmica e
+polar. Observe que ao mover o cursor. Observe que, ao mover o cursor, o leitor
+de coordenadas exibe o cursor variando por incrementos cujo valor definiu na
+configuração de Grid Snap.<span style="mso-spacerun: yes">&nbsp;&nbsp;</span></span></font></li>
+</ul>
+    <p align="right"><font face="Arial" size="2">&nbsp; <a href="#inicio">inicio</a><span style="mso-bidi-font-style: italic"><o:p>
+    </span></font>
+      <div align="left">
+<pre style="text-indent: 1.0cm" align="left"><font face="Arial" size="2">&nbsp;<o:p><font color="#0000FF"> <a name="Comandos de precisão">Comandos de precisão</a></font>&nbsp;      </font></pre>
+      </div>
+      <div align="center">
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" width="430">
+    <tr>
+      <td><font face="Arial" size="2">
+      <img src="gerenc9.jpg" v:shapes="_x0000_i1030" width="480" height="431">
+        </font></td>
+    </tr>
+  </table>
+</div>
+      </div>
+<p align="center"><font face="Arial" size="2">
+ <!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1030"
+  DrawAspect="Content" ObjectID="_1073330764">
+ </o:OLEObject>
+</xml><![endif]-->
+<o:p>
+</o:p>
+</font></p>
+<ul>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l6 level1 lfo68; tab-stops: list 18.0pt; margin-left: 18.0pt" align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Endpoint:[endp]
+seleciona todos os pontos finais de retas, polilinhas, arcos, curvas e vértices
+de faces 3D.<o:p>
+</o:p>
+    </font>
+</span></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l6 level1 lfo68; tab-stops: list 18.0pt; margin-left: 18.0pt" align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Midpoint:[mid] seleciona
+o ponto médio de uma reta ou de um arco. No caso de polilinha seleciona o ponto
+médio de um segmento de polilinha.<o:p>
+</o:p>
+    </font>
+</span></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l6 level1 lfo68; tab-stops: list 18.0pt; margin-left: 18.0pt" align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Center:[cen] seleciona o
+centro de um arco ou um círculo. Você deve clicar sobre o arco ou círculo e não
+sobre o seu centro aparente.<o:p>
+</o:p>
+    </font>
+</span></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l6 level1 lfo68; tab-stops: list 18.0pt; margin-left: 18.0pt" align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Node:[nod] seleciona um
+objeto pontual. <o:p>
+</o:p>
+    </font>
+</span></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l6 level1 lfo68; tab-stops: list 18.0pt; margin-left: 18.0pt" align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Quadpoint:[qua]
+seleciona o ponto cardeal mais próximo (norte, sul, leste ou oeste)<o:p>
+</o:p>
+    </font>
+</span></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l6 level1 lfo68; tab-stops: list 18.0pt; margin-left: 18.0pt" align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Intersection:[int]
+seleciona a interseção de objetos.<o:p>
+</o:p>
+    </font>
+</span></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l6 level1 lfo68; tab-stops: list 18.0pt; margin-left: 18.0pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-style: italic">Extension:[ext]
+seleciona um ponto que esteja alinhado com uma extensão imaginária de uma
+reta. Por exemplo, você pode escolher um ponto no espaço que esteja realmente
+sobre essa reta. Para usar esse ponto digite ext</span><span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New; mso-bidi-font-style: italic">à</span><span style="mso-bidi-font-style: italic">
+enter durante a seleção do ponto ou escolha Extension a partir do menu instantâneo,
+em seguida mova o cursor para a linha cuja extensão você deseja usar e
+mantenha o cursor aí até que você veja um pequeno marcador em forma de cruz
+sobre a linha.<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp; </span><o:p>
+</o:p>
+</span></font></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l6 level1 lfo68; tab-stops: list 18.0pt; margin-left: 18.0pt" align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Insert:[ins] seleciona o
+ponto de inserção de texto, bloco, Xrefs e camadas. <o:p>
+</o:p>
+    </font>
+</span></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l6 level1 lfo68; tab-stops: list 18.0pt; margin-left: 18.0pt" align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Perpendicular:[per]
+seleciona uma posição sobre um objeto que é perpendicular ao ùltimo ponto
+escolhido. <o:p>
+</o:p>
+    </font>
+</span></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l6 level1 lfo68; tab-stops: list 18.0pt; margin-left: 18.0pt" align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Tangent:[tan] seleciona
+um ponto sobre um arco ou um círculo que representa a tangente a partir do último
+ponto escolhido.<o:p>
+</o:p>
+    </font>
+</span></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l6 level1 lfo68; tab-stops: list 18.0pt; margin-left: 18.0pt" align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Nearest:[nea] seleciona
+um ponto sobre um objeto mais próximo do ponto escolhido. <o:p>
+</o:p>
+    </font>
+</span></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l6 level1 lfo68; tab-stops: list 18.0pt; margin-left: 18.0pt" align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Apparent
+    intersection:[apint]
+seleciona a interseção aparente de dois objetos. Isto é ùtil quando você
+deseja selecionar a interseção de dois objetos que na realidade não se
+interceptam. Para isto será pedido que selecione os dois objetos. <o:p>
+    &nbsp;</font>
+</span></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l6 level1 lfo68; tab-stops: list 18.0pt; margin-left: 18.0pt" align="left"><span style="mso-bidi-font-style: italic"><font face="Arial" size="2">Parallel:[par] permite
+selecionar um objeto que seja paralelo a outro segmento de reta existente. Para
+usar esta opção digite --&gt;
+    enter, em seguida mova o cursor sobre a linha em relação a qual você deseja
+obter uma paralela e mantenha o cursor até que veja um pequeno marcador em
+forma de cruz sobre a reta.<span style="mso-spacerun: yes">&nbsp;&nbsp; </span><span style="mso-spacerun:
+yes">&nbsp;</span><o:p>
+</o:p>
+    </font></span></li>
+</ul>
+<p align="right"><font face="Arial" size="2"><span style="mso-bidi-font-style: italic">&nbsp;<o:p>
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#inicio">inicio</a></font></p>
+<p align="left"><b style="mso-bidi-font-weight:normal"><font color="#0000FF" size="2" face="Arial">Comando
+<a name="Layer"> Layer</a>:</font></b>
+</p>
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" width="600">
+    <tr>
+      <td><font face="Arial" size="2">
+      <img src="gerenc10.jpg" v:shapes="_x0000_i1031" width="604" height="504">
+        </font></td>
+    </tr>
+  </table>
+</div>
+<ul>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l26 level1 lfo55; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">Na caixa de diálogo Layer Properties Manager&quot; encontramos
+&quot;named layer filter&quot; que é um filtro dos níveis do desenho; o botão
+&quot;new&quot; podemos criar um novo nível ou camada; o botão &quot;current&quot;
+possibilita tornar um determinado nível como sendo o ativo; os botões
+&quot;Show e Hide Details&quot; mostra ou esconde os detalhes característicos
+do nível selecionado. <b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:
+normal"><span lang="EN-US" style="mso-ansi-language: EN-US"><o:p>
+</o:p>
+</span></i></b></font></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l26 level1 lfo55; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><span lang="EN-US" style="mso-ansi-language: EN-US"><font face="Arial" size="2">Lock,
+    Color, Linetype, Lineweight, Plot Style, Plot, Active Viewport Freeze e New Viewport
+    Freeze.<b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal"><o:p>
+</o:p>
+</i></b></font></span></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l26 level1 lfo55; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">On: quando a lámpada está na cor amarela significa que o
+respectivo nível está ativado e é visível na tela gráfica., no caso que
+estiver desativada está de cor cinza e esse nível não aparece<span style="mso-spacerun: yes">&nbsp;
+</span>visível na tela. <b style="mso-bidi-font-weight:
+normal"><i style="mso-bidi-font-style:normal"><o:p>
+</o:p>
+</i></b></font></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l26 level1 lfo55; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">Freeze in All Viewports: congela/descongela a camada em todas as
+    Viewports; <b style="mso-bidi-font-weight:
+normal"><i style="mso-bidi-font-style:normal"><o:p>
+</o:p>
+</i></b></font></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l26 level1 lfo55; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">Active Viewport Freeze: congela/descongela a camada apenas na
+Viewport ativa; <b style="mso-bidi-font-weight:
+normal"><i style="mso-bidi-font-style:normal"><o:p>
+</o:p>
+</i></b></font></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l26 level1 lfo55; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">New Viewport Freeze: congela/descongela<span style="mso-spacerun: yes">&nbsp;
+</span>o nível ou camada em todas as novas Viewports; <b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal"><o:p>
+</o:p>
+</i></b></font></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l26 level1 lfo55; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">Lock (cadeado fechado): é destinado para a ação de ativar ou
+desativar edições num nível ou camada o nível está impossibilitado de
+receber edições, enquanto Unlock (cadeado aberto) o nível pode receber edições.<b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:
+normal"><o:p>
+</o:p>
+</i></b></font></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l26 level1 lfo55; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">Color: selecionamos uma cor<span style="mso-spacerun: yes">&nbsp; </span>que
+será associada a um nível. <b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal"><o:p>
+    &nbsp;
+</i></b></font></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l26 level1 lfo55; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">Linetype: podemos carregar e definir o tipo de linha utilizado
+nesse nível ou camada. <b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal"><o:p>
+</o:p>
+</i></b></font></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l26 level1 lfo55; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">Lineweight: podemos escolher a espessura da linha a ser utilizado
+nesse nível ou camada. <b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal"><o:p>
+</o:p>
+</i></b></font></li>
+  <li>
+    <p style="text-indent: -18.0pt; mso-list: l26 level1 lfo55; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">Plot: nos permite plotar ou não os elementos de um determinado nível.<b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal"><o:p>
+</o:p>
+</i></b></font></li>
+</ul>
+<p align="right"><font face="Arial" size="2"><a href="#inicio">inicio</a><i style="mso-bidi-font-style:normal"><b style="mso-bidi-font-weight:
+normal"></o:p>
+</b></i>
+</font></p>
+<p style="text-indent: -18.0pt; mso-list: l15 level1 lfo65; tab-stops: list 18.0pt; margin-left: 18.0pt" align="left"><b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal"><font face="Arial" size="2"><a name="Controle de Imagem"><font color="#0000FF">Controle
+de Imagem</font></a><font color="#0000FF" face="Arial" size="1">:</font></font></i></b></p>
+<ul>
+  <li>
+    <p style="text-indent: -21.6pt; mso-list: l15 level2 lfo65; tab-stops: list 39.6pt; margin-left: 39.6pt" align="left"><font face="Arial" size="2"><b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal">Comando
+Zoom </i></b> <o:p>
+</o:p>
+    </font></li>
+</ul>
+<p style="text-indent: 1.0cm" align="left"><font face="Arial" size="2">Este
+comando atua como se o observador estivesse afastando-se ou aproximando-se do
+desenho, e ele pode ser acionado via teclado, via ícone ou pelo menu suspenso <b style="mso-bidi-font-weight:
+normal"><i style="mso-bidi-font-style:normal">VIEW</i></b><b style="mso-bidi-font-weight: normal; mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">--&gt;</b><b style="mso-bidi-font-weight:normal">
+<i style="mso-bidi-font-style:normal">Zoom</i></b> <span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">--&gt;</span>
+<span style="mso-bidi-font-weight:bold">Realtime ou Previus ou Windows ou</span></font></p>
+<p style="margin-left: 36.0pt" align="left"><font face="Arial" size="2"><b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:normal"><span style="mso-spacerun: yes">&nbsp;</span></i></b>ZOOM<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">&nbsp;</span></font></p>
+<p style="margin-left: 36.0pt" align="left"><font face="Arial" size="2">[Realtime]:
+muda a visualização automaticamente através da movimentação do mouse, <o:p>
+</o:p>
+</font></p>
+<p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;<span style="font-style: normal; font-variant: normal; mso-bidi-font-family: Courier New">
+- </span>para abaixo<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">--&gt;</span>
+afastamento<o:p>
+</o:p>
+</font></p>
+<p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;<span style="mso-bidi-font-family: Courier New">
+- </span>para cima--&gt; aproximação<o:p>
+</o:p>
+</font></p>
+<p style="text-indent: 1.0cm" align="left"><font face="Arial" size="2">[Previus]:
+restaura a janela anterior.<o:p>
+</o:p>
+</font></p>
+<p style="text-indent: 1.0cm" align="left"><font face="Arial" size="2">[Windows]:
+define nova janela através de dois pontos na diagonal<o:p>
+</o:p>
+</font></p>
+<p style="text-indent: 1.0cm" align="left"><font face="Arial" size="2">[Dynamic]:
+define nova janela dinamicamente. O comando apresenta uma tela mostrando: <o:p>
+</o:p>
+</font></p>
+<p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;<span style="mso-bidi-font-family: Courier New">
+- </span>um retângulo azul pontilhado representando o limite do desenho;<o:p>
+</o:p>
+</font></p>
+<p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-family: Courier New">&nbsp;&nbsp;&nbsp;
+- </span>um retângulo verde pontilhado representando a janela corrente;<o:p>
+</o:p>
+</font></p>
+<p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;
+- </span>um retângulo móvel<span style="mso-spacerun: yes">&nbsp; </span>representando
+a próxima janela.<o:p>
+&nbsp;</font></p>
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" width="510">
+    <tr>
+      <td><font face="Arial" size="2">
+      <img src="gerenc11.jpg" v:shapes="_x0000_i1032" width="512" height="366">
+        </font></td>
+    </tr>
+  </table>
+</div>
+<p align="left"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;
+[Scale
+x/xp]: modifica a janela mudando a escala da visualização corrente, gerando
+efeito de aproximação e afastamento. Xp só é utilizado no modo &quot;paper
+space&quot;<span style="mso-spacerun: yes">&nbsp; </span>Exemplo: <o:p>
+</o:p>
+</font></p>
+<p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-family:&quot;Courier New&quot;">-<span style="font-style: normal; font-variant: normal">&nbsp;</span></span>&quot;2x&quot;
+<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">:</span>
+aumenta duas vezes o tamanho atual do desenho;<o:p>
+</o:p>
+</font></p>
+<p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-family:&quot;Courier New&quot;">-<span style="font-style: normal; font-variant: normal">&nbsp;</span></span>&quot;0.5x&quot;
+<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">:</span>
+diminui duas vezes o tamanho atual do desenho;<o:p>
+</o:p>
+</font></p>
+<p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-family:&quot;Courier New&quot;">-<span style="font-style: normal; font-variant: normal">&nbsp;</span></span>&quot;2&quot;
+<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">:</span>
+aumenta duas vezes o tamanho original do desenho;<o:p>
+</o:p>
+</font></p>
+<p style="text-indent: -18.0pt; mso-list: l34 level1 lfo1; tab-stops: list 54.0pt; margin-left: 54.0pt" align="left"><font face="Arial" size="2"><span style="mso-bidi-font-family:&quot;Courier New&quot;">-<span style="font-style: normal; font-variant: normal">&nbsp;</span></span>&quot;0.5&quot;<span style="mso-char-type: symbol; mso-symbol-font-family: Wingdings; mso-ascii-font-family: Courier New; mso-hansi-font-family: Courier New; mso-bidi-font-family: Courier New">:</span>
+diminui duas vezes o tamanho original do desenho.<o:p>
+</o:p>
+</font></p>
+<p align="left" style="text-indent: 15"><font face="Arial" size="2">[Center]
+: altera o posicionamento do centro da janela corrente ou seja a distância do
+observador ao ponto marcado, a menor distância vamos aproximar o ponto marcado
+e a maior distância nos afastamos do ponto.</font></p>
+<p align="left" style="text-indent: 15"><font face="Arial" size="2">
+[In]:
+aproxima os objetos : Zoom 2x</font></p>
+<p align="left" style="text-indent: 15"><font face="Arial" size="2">[Out]:
+afasta os objetos : Zoom 0.5x</font></p>
+<p align="left" style="text-indent: 15"><font face="Arial" size="2">[All]:
+encaixa os limites do desenho na tela gráfica, quando o desenho ultrapassa os
+limites da tela gráfica ele será exibido por inteiro e se estivermos com o
+Grip ativado, podemos visualizar onde estão os limites ativos do desenho.</font></p>
+<p align="left" style="text-indent: 15"><font face="Arial" size="2"><span style="text-transform: uppercase">[</span>Extents<span style="text-transform:uppercase">]</span>
+: Ajusta a janela de forma a enquadrar todos os objetos.</font></p>
+<p align="left" style="text-indent: 15"><font face="Arial" size="2">[Pan]: permite modificar a região visível do desenho apenas deslocando
+a janela corrente, mantendo suas proporções a escala.</font></p>
+<p align="left" style="text-indent: 15"><font face="Arial" size="2">&nbsp;[Aerial
+View] : é uma ferramenta de navegação<span style="mso-spacerun: yes">&nbsp;
+</span>que mostra o desenho por inteiro em uma janela separada e permite
+especificar rapidamente qual parte deve ser localizada e exibida.<o:p>
+</o:p>
+</font></p>
+<p style="text-indent: 1.0cm" align="center"><font face="Arial" size="2">&nbsp;<o:p>
+</o:p>
+</font></p>
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" width="580">
+    <tr>
+      <td><font face="Arial" size="2">
+      <img src="gerenc12.jpg" v:shapes="_x0000_i1033" width="589" height="442">
+        </font></td>
+    </tr>
+  </table>
+</div>
+<p align="center"><font face="Arial" size="2">
+ <!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1033"
+  DrawAspect="Content" ObjectID="_1073330767">
+ </o:OLEObject>
+</xml><![endif]-->
+<o:p>
+ Clique <a href="p_p_area_trabalho.htm">aqui </a>para um passo a passo deste
+capítulo</font><font face="Arial" size="1">
+</o:p>
+</font></p>
+<p align="right"><font face="Arial" size="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#inicio">inicio</a>
+</font></p>
+      </center>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td>
+    </tr>
+  </table>
+</div>
+<p class="MsoNormal" align="left"><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;
+</font></p>
+
+</body>
+
+</html>
